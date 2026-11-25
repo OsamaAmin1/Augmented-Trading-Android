@@ -1,0 +1,3665 @@
+{
+  "entries": [
+    {
+      "id": "ST-00",
+      "group": "strategy",
+      "en": "Financial Readiness",
+      "ar": "الجاهزية المالية",
+      "meaning": {
+        "en": "Check that obligations and protected reserves are covered before market exposure.",
+        "ar": "التأكد من تغطية الالتزامات والاحتياطيات المحمية قبل التعرض للسوق."
+      },
+      "use": {
+        "en": "Review income, debt and savings before starting.",
+        "ar": "راجع الدخل والديون والمدخرات أولاً."
+      },
+      "calculation": {
+        "en": "Financial readiness gate based on the original assessment rules.",
+        "ar": "بوابة الجاهزية حسب قواعد التقييم الأصلية."
+      },
+      "aliases": [
+        "ST-00 Financial Readiness"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-01",
+      "group": "strategy",
+      "en": "Capital Preservation",
+      "ar": "حماية رأس المال",
+      "meaning": {
+        "en": "Prioritize avoiding loss of principal.",
+        "ar": "إعطاء الأولوية لتجنب خسارة أصل المال."
+      },
+      "use": {
+        "en": "Compare low-risk choices and reserve requirements.",
+        "ar": "قارن البدائل الأقل مخاطرة والاحتياطيات المطلوبة."
+      },
+      "calculation": {
+        "en": "Review downside, liquidity and eligible allocation; no universal return formula.",
+        "ar": "مراجعة الخسارة المحتملة والسيولة والتخصيص المؤهل؛ لا توجد معادلة عائد موحدة."
+      },
+      "aliases": [
+        "ST-01 Capital Preservation"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-02",
+      "group": "strategy",
+      "en": "Liquidity Management",
+      "ar": "إدارة السيولة",
+      "meaning": {
+        "en": "Keep cash accessible for obligations.",
+        "ar": "الحفاظ على النقد المتاح للالتزامات."
+      },
+      "use": {
+        "en": "Match maturities to spending needs.",
+        "ar": "طابق آجال الاستحقاق مع الاحتياجات."
+      },
+      "calculation": {
+        "en": "Cash coverage = available liquid assets / near-term obligations.",
+        "ar": "تغطية السيولة = الأصول السائلة المتاحة ÷ الالتزامات القريبة."
+      },
+      "aliases": [
+        "ST-02 Liquidity Management"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-03",
+      "group": "strategy",
+      "en": "Conservative Income",
+      "ar": "دخل محافظ",
+      "meaning": {
+        "en": "Seek relatively stable income with controlled risk.",
+        "ar": "السعي لدخل مستقر نسبياً مع ضبط المخاطر."
+      },
+      "use": {
+        "en": "Compare payout, credit risk and maturity.",
+        "ar": "قارن التوزيعات ومخاطر الائتمان والاستحقاق."
+      },
+      "calculation": {
+        "en": "Income yield = annual cash income / invested capital.",
+        "ar": "عائد الدخل = الدخل النقدي السنوي ÷ رأس المال المستثمر."
+      },
+      "aliases": [
+        "ST-03 Conservative Income"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-04",
+      "group": "strategy",
+      "en": "Short-Term Savings",
+      "ar": "ادخار قصير الأجل",
+      "meaning": {
+        "en": "Protect money for a near-term goal.",
+        "ar": "حماية المال المخصص لهدف قريب."
+      },
+      "use": {
+        "en": "Match the savings instrument to the goal date.",
+        "ar": "طابق أداة الادخار مع موعد الهدف."
+      },
+      "calculation": {
+        "en": "Future value = principal × (1 + periodic rate)^periods, subject to product terms.",
+        "ar": "القيمة المستقبلية = الأصل × (1 + معدل الفترة)^عدد الفترات وفق شروط المنتج."
+      },
+      "aliases": [
+        "ST-04 Short-Term Savings"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-05",
+      "group": "strategy",
+      "en": "Index Investing",
+      "ar": "الاستثمار في المؤشرات",
+      "meaning": {
+        "en": "Track a broad index through a suitable product.",
+        "ar": "تتبع مؤشر واسع بأداة مناسبة."
+      },
+      "use": {
+        "en": "Compare tracking error, fees and diversification.",
+        "ar": "قارن خطأ التتبع والرسوم والتنويع."
+      },
+      "calculation": {
+        "en": "Fund return minus benchmark return; evaluate tracking error.",
+        "ar": "عائد الصندوق ناقص عائد المؤشر؛ قيّم خطأ التتبع."
+      },
+      "aliases": [
+        "ST-05 Index Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-06",
+      "group": "strategy",
+      "en": "Diversified Fund Investing",
+      "ar": "الاستثمار في صناديق متنوعة",
+      "meaning": {
+        "en": "Spread exposure across holdings via funds.",
+        "ar": "توزيع التعرض على استثمارات متعددة عبر الصناديق."
+      },
+      "use": {
+        "en": "Review holdings, fees and concentration.",
+        "ar": "راجع المكونات والرسوم والتركيز."
+      },
+      "calculation": {
+        "en": "Portfolio return = weighted sum of aligned asset returns for a single period.",
+        "ar": "عائد المحفظة = مجموع عوائد الأصول الموزونة لفترة واحدة."
+      },
+      "aliases": [
+        "ST-06 Diversified Fund Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-07",
+      "group": "strategy",
+      "en": "Balanced Fund Investing",
+      "ar": "الاستثمار في صناديق متوازنة",
+      "meaning": {
+        "en": "Combine equity and defensive assets.",
+        "ar": "الجمع بين الأسهم والأصول الدفاعية."
+      },
+      "use": {
+        "en": "Review allocation and drawdown.",
+        "ar": "راجع التخصيص والتراجع."
+      },
+      "calculation": {
+        "en": "Single-period return = equity weight × equity return + defensive weight × defensive return.",
+        "ar": "عائد الفترة = وزن الأسهم × عائدها + وزن الأصول الدفاعية × عائدها."
+      },
+      "aliases": [
+        "ST-07 Balanced Fund Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-08",
+      "group": "strategy",
+      "en": "Asset Allocation Investing",
+      "ar": "استثمار تخصيص الأصول",
+      "meaning": {
+        "en": "Allocate across asset classes according to goals and risk.",
+        "ar": "توزيع الاستثمار بين فئات الأصول وفق الأهداف والمخاطر."
+      },
+      "use": {
+        "en": "Set weights and rebalance with cost awareness.",
+        "ar": "حدد الأوزان وأعد التوازن مع مراعاة التكاليف."
+      },
+      "calculation": {
+        "en": "Target units derive from target weight × portfolio value / unit price.",
+        "ar": "الوحدات المستهدفة من الوزن × قيمة المحفظة ÷ سعر الوحدة."
+      },
+      "aliases": [
+        "ST-08 Asset Allocation Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-09",
+      "group": "strategy",
+      "en": "Buy & Hold",
+      "ar": "الشراء والاحتفاظ",
+      "meaning": {
+        "en": "Buy and hold over the chosen horizon.",
+        "ar": "الشراء والاحتفاظ خلال الأفق المحدد."
+      },
+      "use": {
+        "en": "Compare net performance against a passive benchmark.",
+        "ar": "قارن الأداء الصافي بمؤشر مرجعي."
+      },
+      "calculation": {
+        "en": "Prototype enters at step zero for next-step execution and holds; return = ending / initial equity − 1.",
+        "ar": "النموذج يدخل عند الخطوة صفر للتنفيذ التالي ويحتفظ؛ العائد = القيمة النهائية ÷ الابتدائية − 1."
+      },
+      "aliases": [
+        "ST-09 Buy & Hold"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-10",
+      "group": "strategy",
+      "en": "Value Investing",
+      "ar": "استثمار القيمة",
+      "meaning": {
+        "en": "Seek a price below an evidence-based estimate of value.",
+        "ar": "البحث عن سعر أقل من تقدير قيمة مدعوم بالأدلة."
+      },
+      "use": {
+        "en": "Use compatible multiples and valuation scenarios.",
+        "ar": "استخدم مضاعفات متوافقة وسيناريوهات تقييم."
+      },
+      "calculation": {
+        "en": "Margin of safety = (estimated value − price) / estimated value; estimate uncertain.",
+        "ar": "هامش الأمان = (القيمة المقدرة − السعر) ÷ القيمة المقدرة؛ التقدير غير مؤكد."
+      },
+      "aliases": [
+        "ST-10 Value Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-11",
+      "group": "strategy",
+      "en": "Growth Investing",
+      "ar": "استثمار النمو",
+      "meaning": {
+        "en": "Focus on businesses with sustainable expansion.",
+        "ar": "التركيز على الشركات ذات النمو المستدام."
+      },
+      "use": {
+        "en": "Compare earnings and revenue growth with valuation.",
+        "ar": "قارن نمو الأرباح والإيرادات بالتقييم."
+      },
+      "calculation": {
+        "en": "Growth = current / prior comparable value − 1.",
+        "ar": "النمو = القيمة الحالية ÷ السابقة المتوافقة − 1."
+      },
+      "aliases": [
+        "ST-11 Growth Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-12",
+      "group": "strategy",
+      "en": "Quality Investing",
+      "ar": "استثمار الجودة",
+      "meaning": {
+        "en": "Focus on durable financial strength and profitability.",
+        "ar": "التركيز على القوة المالية والربحية المستدامة."
+      },
+      "use": {
+        "en": "Review profitability, leverage and cash flow.",
+        "ar": "راجع الربحية والرافعة والتدفق النقدي."
+      },
+      "calculation": {
+        "en": "Use multiple ratios, not one universal quality score.",
+        "ar": "استخدم عدة نسب؛ لا توجد درجة جودة موحدة."
+      },
+      "aliases": [
+        "ST-12 Quality Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-13",
+      "group": "strategy",
+      "en": "Stable Dividend Income",
+      "ar": "دخل توزيعات مستقر",
+      "meaning": {
+        "en": "Favor sustainable recurring distributions.",
+        "ar": "تفضيل التوزيعات المتكررة المستدامة."
+      },
+      "use": {
+        "en": "Check distribution record and cash coverage.",
+        "ar": "تحقق من تاريخ التوزيعات والتغطية النقدية."
+      },
+      "calculation": {
+        "en": "Dividend yield = annual dividend per share / price; payout = dividends / earnings.",
+        "ar": "عائد التوزيع = التوزيع السنوي للسهم ÷ السعر؛ نسبة التوزيع = التوزيعات ÷ الأرباح."
+      },
+      "aliases": [
+        "ST-13 Stable Dividend Income"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-14",
+      "group": "strategy",
+      "en": "High Dividend Yield",
+      "ar": "عائد توزيعات مرتفع",
+      "meaning": {
+        "en": "Focus on high dividend yield while checking sustainability.",
+        "ar": "التركيز على عائد توزيعات مرتفع مع التحقق من الاستدامة."
+      },
+      "use": {
+        "en": "Avoid treating a falling price as automatic opportunity.",
+        "ar": "لا تعتبر انخفاض السعر فرصة تلقائياً."
+      },
+      "calculation": {
+        "en": "Yield = annual dividend per share / market price.",
+        "ar": "العائد = التوزيع السنوي للسهم ÷ سعر السوق."
+      },
+      "aliases": [
+        "ST-14 High Dividend Yield"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-15",
+      "group": "strategy",
+      "en": "Dividend Growth",
+      "ar": "نمو التوزيعات",
+      "meaning": {
+        "en": "Focus on businesses growing cash distributions over time.",
+        "ar": "التركيز على الشركات التي تنمي توزيعاتها عبر الزمن."
+      },
+      "use": {
+        "en": "Compare adjusted per-share distributions and coverage.",
+        "ar": "قارن التوزيع المعدل للسهم والتغطية."
+      },
+      "calculation": {
+        "en": "Dividend growth = comparable current dividend / prior dividend − 1.",
+        "ar": "نمو التوزيع = التوزيع الحالي المتوافق ÷ السابق − 1."
+      },
+      "aliases": [
+        "ST-15 Dividend Growth"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-16",
+      "group": "strategy",
+      "en": "GARP",
+      "ar": "النمو بسعر معقول (GARP)",
+      "meaning": {
+        "en": "Balance growth potential against valuation.",
+        "ar": "الموازنة بين فرص النمو والتقييم."
+      },
+      "use": {
+        "en": "Compare growth, multiples and financial quality.",
+        "ar": "قارن النمو والمضاعفات والجودة المالية."
+      },
+      "calculation": {
+        "en": "PEG = P/E / expected earnings growth in percentage points; assumptions uncertain.",
+        "ar": "PEG = مضاعف الربحية ÷ نمو الأرباح المتوقع بالنقاط المئوية؛ الافتراضات غير مؤكدة."
+      },
+      "aliases": [
+        "ST-16 GARP"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-17",
+      "group": "strategy",
+      "en": "Defensive Investing",
+      "ar": "الاستثمار الدفاعي",
+      "meaning": {
+        "en": "Favor resilience during difficult conditions.",
+        "ar": "تفضيل القدرة على الصمود في الظروف الصعبة."
+      },
+      "use": {
+        "en": "Evaluate downside and economic sensitivity.",
+        "ar": "قيّم الجانب السلبي والحساسية الاقتصادية."
+      },
+      "calculation": {
+        "en": "Compare drawdown, volatility and stress tests; no single rule.",
+        "ar": "قارن التراجع والتذبذب واختبارات الضغط؛ لا توجد قاعدة واحدة."
+      },
+      "aliases": [
+        "ST-17 Defensive Investing"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-18",
+      "group": "strategy",
+      "en": "Position Trading",
+      "ar": "تداول المراكز",
+      "meaning": {
+        "en": "Hold positions based on a sustained trend.",
+        "ar": "الاحتفاظ بمراكز وفق اتجاه ممتد."
+      },
+      "use": {
+        "en": "Inspect trend and position risk.",
+        "ar": "افحص الاتجاه ومخاطر المركز."
+      },
+      "calculation": {
+        "en": "Prototype: price above rising SMA5, requiring six prices.",
+        "ar": "النموذج: السعر أعلى من متوسط SMA5 الصاعد، ويتطلب ستة أسعار."
+      },
+      "aliases": [
+        "ST-18 Position Trading"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-19",
+      "group": "strategy",
+      "en": "Swing Trading",
+      "ar": "التداول المتأرجح",
+      "meaning": {
+        "en": "Capture short price swings.",
+        "ar": "استهداف موجات سعرية قصيرة."
+      },
+      "use": {
+        "en": "Study reversal patterns and costs.",
+        "ar": "ادرس الانعكاسات والتكاليف."
+      },
+      "calculation": {
+        "en": "Prototype enters after positive change following negative change, exits on negative change.",
+        "ar": "النموذج يدخل بعد تغير موجب يلي تغيراً سالباً ويخرج عند تغير سالب."
+      },
+      "aliases": [
+        "ST-19 Swing Trading"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-20",
+      "group": "strategy",
+      "en": "Trend Following",
+      "ar": "اتباع الاتجاه",
+      "meaning": {
+        "en": "Trade in the direction of a detected trend.",
+        "ar": "التداول باتجاه الاتجاه المرصود."
+      },
+      "use": {
+        "en": "Compare moving averages and test false signals.",
+        "ar": "قارن المتوسطات واختبر الإشارات الكاذبة."
+      },
+      "calculation": {
+        "en": "Prototype: long when SMA3 > SMA5, otherwise cash.",
+        "ar": "النموذج: شراء عند SMA3 أكبر من SMA5 وإلا نقد."
+      },
+      "aliases": [
+        "ST-20 Trend Following"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-21",
+      "group": "strategy",
+      "en": "Momentum Trading",
+      "ar": "تداول الزخم",
+      "meaning": {
+        "en": "Use recent price strength as an input.",
+        "ar": "استخدام قوة الحركة السعرية الأخيرة كمدخل."
+      },
+      "use": {
+        "en": "Compare momentum across a consistent horizon.",
+        "ar": "قارن الزخم على أفق زمني موحد."
+      },
+      "calculation": {
+        "en": "Prototype: long when trailing three-step return > 0.",
+        "ar": "النموذج: شراء عند عائد آخر ثلاث خطوات أكبر من صفر."
+      },
+      "aliases": [
+        "ST-21 Momentum Trading"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-22",
+      "group": "strategy",
+      "en": "Breakout Trading",
+      "ar": "تداول الاختراق",
+      "meaning": {
+        "en": "Study movement beyond an earlier price range.",
+        "ar": "دراسة تجاوز نطاق سعري سابق."
+      },
+      "use": {
+        "en": "Check the breakout and risk of reversal.",
+        "ar": "تحقق من الاختراق ومخاطر الانعكاس."
+      },
+      "calculation": {
+        "en": "Prototype enters above prior three closes and exits below their minimum.",
+        "ar": "النموذج يدخل فوق آخر ثلاثة إغلاقات ويخرج تحت أدناها."
+      },
+      "aliases": [
+        "ST-22 Breakout Trading"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-23",
+      "group": "strategy",
+      "en": "Pullback Trading",
+      "ar": "تداول التصحيح",
+      "meaning": {
+        "en": "Look for a temporary decline within a trend.",
+        "ar": "البحث عن هبوط مؤقت داخل اتجاه."
+      },
+      "use": {
+        "en": "Evaluate whether the trend remains intact.",
+        "ar": "قيّم استمرار الاتجاه."
+      },
+      "calculation": {
+        "en": "Prototype enters above SMA5 on a negative one-step return and exits below SMA5.",
+        "ar": "النموذج يدخل فوق SMA5 عند عائد خطوة سالب ويخرج أسفله."
+      },
+      "aliases": [
+        "ST-23 Pullback Trading"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-24",
+      "group": "strategy",
+      "en": "Range Trading",
+      "ar": "تداول النطاق",
+      "meaning": {
+        "en": "Study oscillation within a price range.",
+        "ar": "دراسة التذبذب داخل نطاق سعري."
+      },
+      "use": {
+        "en": "Identify range boundaries and breakout risk.",
+        "ar": "حدد حدود النطاق ومخاطر الاختراق."
+      },
+      "calculation": {
+        "en": "Prototype enters in bottom quarter of prior three-price range and exits in top quarter.",
+        "ar": "النموذج يدخل في الربع الأدنى لنطاق ثلاثة أسعار سابقة ويخرج في الربع الأعلى."
+      },
+      "aliases": [
+        "ST-24 Range Trading"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-25",
+      "group": "strategy",
+      "en": "Mean Reversion",
+      "ar": "الارتداد إلى المتوسط",
+      "meaning": {
+        "en": "Study deviations from a reference average.",
+        "ar": "دراسة الانحراف عن متوسط مرجعي."
+      },
+      "use": {
+        "en": "Measure deviation and test regime dependence.",
+        "ar": "قس الانحراف واختبر تأثير حالة السوق."
+      },
+      "calculation": {
+        "en": "Prototype enters 1% below SMA3 and exits at or above SMA3.",
+        "ar": "النموذج يدخل تحت SMA3 بنسبة 1% ويخرج عنده أو فوقه."
+      },
+      "aliases": [
+        "ST-25 Mean Reversion"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-26",
+      "group": "strategy",
+      "en": "Reversal Trading",
+      "ar": "تداول الانعكاس",
+      "meaning": {
+        "en": "Study potential changes in trend direction.",
+        "ar": "دراسة تغير محتمل في اتجاه السعر."
+      },
+      "use": {
+        "en": "Use patterns with confirmation and risk controls.",
+        "ar": "استخدم الأنماط مع التأكيد وضبط المخاطر."
+      },
+      "calculation": {
+        "en": "No executable rule in V1.19; patterns are descriptive evidence.",
+        "ar": "لا توجد قاعدة تنفيذية في V1.19؛ الأنماط أدلة وصفية."
+      },
+      "aliases": [
+        "ST-26 Reversal Trading"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-27",
+      "group": "strategy",
+      "en": "Event-Driven Trading",
+      "ar": "التداول القائم على الأحداث",
+      "meaning": {
+        "en": "Study announcements and potential transmission channels.",
+        "ar": "دراسة الإعلانات وقنوات تأثيرها المحتملة."
+      },
+      "use": {
+        "en": "Check publication time and uncertainty.",
+        "ar": "تحقق من توقيت النشر وعدم اليقين."
+      },
+      "calculation": {
+        "en": "Event-window return versus aligned benchmark; causal impact is not established.",
+        "ar": "عائد نافذة الحدث مقابل مؤشر متوافق؛ لا يثبت السببية."
+      },
+      "aliases": [
+        "ST-27 Event-Driven Trading"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-28",
+      "group": "strategy",
+      "en": "Day Trading",
+      "ar": "التداول اليومي",
+      "meaning": {
+        "en": "Enter and exit during one market session.",
+        "ar": "الدخول والخروج خلال جلسة واحدة."
+      },
+      "use": {
+        "en": "Use intraday liquidity and execution training.",
+        "ar": "استخدم تدريب السيولة والتنفيذ اللحظي."
+      },
+      "calculation": {
+        "en": "Net intraday P/L = sale proceeds − purchase cost − fees; actual intraday data pending.",
+        "ar": "صافي الربح اليومي = حصيلة البيع − تكلفة الشراء − الرسوم؛ البيانات الفعلية غير مكتملة."
+      },
+      "aliases": [
+        "ST-28 Day Trading"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-29",
+      "group": "strategy",
+      "en": "Scalping",
+      "ar": "المضاربة السريعة",
+      "meaning": {
+        "en": "Study very short movements and execution costs.",
+        "ar": "دراسة الحركات القصيرة جداً وتكاليف التنفيذ."
+      },
+      "use": {
+        "en": "Inspect spread and slippage before testing.",
+        "ar": "افحص الفارق السعري والانزلاق قبل الاختبار."
+      },
+      "calculation": {
+        "en": "Net gain = price movement × quantity − transaction costs; no executable rule yet.",
+        "ar": "صافي الربح = حركة السعر × الكمية − تكاليف المعاملة؛ لا توجد قاعدة تنفيذية بعد."
+      },
+      "aliases": [
+        "ST-29 Scalping"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-30",
+      "group": "strategy",
+      "en": "Relative Strength",
+      "ar": "القوة النسبية",
+      "meaning": {
+        "en": "Compare an investment's movement with a benchmark.",
+        "ar": "مقارنة حركة الاستثمار بمؤشر مرجعي."
+      },
+      "use": {
+        "en": "Use matched observation dates.",
+        "ar": "استخدم تواريخ رصد متطابقة."
+      },
+      "calculation": {
+        "en": "Prototype long when own three-step return exceeds EGX30 and is positive.",
+        "ar": "النموذج يدخل إذا تجاوز عائد ثلاث خطوات عائد EGX30 وكان موجباً."
+      },
+      "aliases": [
+        "ST-30 Relative Strength"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "ST-31",
+      "group": "strategy",
+      "en": "Hybrid Income",
+      "ar": "الدخل المختلط",
+      "meaning": {
+        "en": "Combine income sources with different characteristics.",
+        "ar": "الجمع بين مصادر دخل مختلفة الخصائص."
+      },
+      "use": {
+        "en": "Review cash flows and concentration.",
+        "ar": "راجع التدفقات النقدية والتركيز."
+      },
+      "calculation": {
+        "en": "Total cash income = sum of eligible distributions; total return includes price change.",
+        "ar": "إجمالي الدخل = مجموع التوزيعات المؤهلة؛ العائد الكلي يشمل تغير السعر."
+      },
+      "aliases": [
+        "ST-31 Hybrid Income"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-32",
+      "group": "strategy",
+      "en": "Core-Satellite",
+      "ar": "المحفظة الأساسية والفرعية",
+      "meaning": {
+        "en": "Combine a diversified core with smaller active positions.",
+        "ar": "الجمع بين محفظة أساسية متنوعة ومراكز نشطة أصغر."
+      },
+      "use": {
+        "en": "Set separate core and satellite limits.",
+        "ar": "حدد حدوداً منفصلة للأساسي والفرعي."
+      },
+      "calculation": {
+        "en": "Target allocation = core weight + satellite weights + cash weight = 100%.",
+        "ar": "التخصيص المستهدف = وزن الأساسي + الأوزان الفرعية + النقد = 100%."
+      },
+      "aliases": [
+        "ST-32 Core-Satellite"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-33",
+      "group": "strategy",
+      "en": "Investment & Trading",
+      "ar": "الاستثمار والتداول",
+      "meaning": {
+        "en": "Separate long-term investing from active trading.",
+        "ar": "فصل الاستثمار طويل الأجل عن التداول النشط."
+      },
+      "use": {
+        "en": "Track each sleeve separately with risk limits.",
+        "ar": "تابع كل جزء منفصلاً مع حدود المخاطر."
+      },
+      "calculation": {
+        "en": "Combined value = investment sleeve + trading sleeve + cash; track costs separately.",
+        "ar": "القيمة المجمعة = الجزء الاستثماري + جزء التداول + النقد؛ تابع التكاليف منفصلة."
+      },
+      "aliases": [
+        "ST-33 Investment & Trading"
+      ],
+      "status": "not_implemented"
+    },
+    {
+      "id": "ST-34",
+      "group": "strategy",
+      "en": "Market Adaptive",
+      "ar": "التكيف مع السوق",
+      "meaning": {
+        "en": "Adapt analytical conditions to market behavior.",
+        "ar": "تكييف الشروط التحليلية مع سلوك السوق."
+      },
+      "use": {
+        "en": "Compare evidence across market regimes.",
+        "ar": "قارن الأدلة عبر حالات السوق."
+      },
+      "calculation": {
+        "en": "Prototype: long when own and EGX30 three-step returns are positive.",
+        "ar": "النموذج يدخل عند عائد موجب لآخر ثلاث خطوات للأصل وEGX30."
+      },
+      "aliases": [
+        "ST-34 Market Adaptive"
+      ],
+      "status": "synthetic_proxy"
+    },
+    {
+      "id": "return_pct",
+      "group": "metric",
+      "en": "Return",
+      "ar": "العائد",
+      "meaning": {
+        "en": "Change in investment value.",
+        "ar": "التغير في قيمة الاستثمار."
+      },
+      "use": {
+        "en": "Compare aligned periods and costs.",
+        "ar": "قارن فترات وتكاليف متوافقة."
+      },
+      "calculation": {
+        "en": "100 × (ending / starting equity − 1)",
+        "ar": "100 × (القيمة النهائية ÷ الابتدائية − 1)"
+      },
+      "aliases": [
+        "return pct",
+        "Return %",
+        "Total return",
+        "Return pct",
+        "Strategy return",
+        "Optimizer return",
+        "Passive return",
+        "Buy & hold return"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "interval_return",
+      "group": "metric",
+      "en": "Interval return",
+      "ar": "عائد الفترة",
+      "meaning": {
+        "en": "Price change between observations.",
+        "ar": "تغير السعر بين رصدين."
+      },
+      "use": {
+        "en": "Check data interval first.",
+        "ar": "تحقق من مدة الفترة أولاً."
+      },
+      "calculation": {
+        "en": "P(t) / P(t−1) − 1",
+        "ar": "سعر الفترة ÷ السعر السابق − 1"
+      },
+      "aliases": [
+        "interval return"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "max_drawdown_pct",
+      "group": "metric",
+      "en": "Maximum drawdown",
+      "ar": "أقصى تراجع",
+      "meaning": {
+        "en": "Largest peak-to-trough decline.",
+        "ar": "أكبر انخفاض من قمة إلى قاع."
+      },
+      "use": {
+        "en": "Compare downside of strategies.",
+        "ar": "قارن الجانب السلبي للاستراتيجيات."
+      },
+      "calculation": {
+        "en": "100 × max(1 − value / prior running peak)",
+        "ar": "100 × أكبر (1 − القيمة ÷ أعلى قيمة سابقة)"
+      },
+      "aliases": [
+        "max drawdown pct",
+        "Max drawdown",
+        "Maximum drawdown %",
+        "Portfolio drawdown lock (%) · 0 disables"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "drawdown",
+      "group": "metric",
+      "en": "Drawdown",
+      "ar": "التراجع",
+      "meaning": {
+        "en": "Decline from the running peak.",
+        "ar": "الانخفاض من أعلى قيمة سابقة."
+      },
+      "use": {
+        "en": "Monitor risk through time.",
+        "ar": "راقب المخاطر عبر الزمن."
+      },
+      "calculation": {
+        "en": "1 − value / running peak",
+        "ar": "1 − القيمة ÷ أعلى قيمة حتى الآن"
+      },
+      "aliases": [
+        "drawdown"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "volatility",
+      "group": "metric",
+      "en": "Volatility",
+      "ar": "التذبذب",
+      "meaning": {
+        "en": "Dispersion of periodic returns.",
+        "ar": "تشتت عوائد الفترات."
+      },
+      "use": {
+        "en": "Compare using same frequency.",
+        "ar": "قارن بنفس التواتر."
+      },
+      "calculation": {
+        "en": "Sample standard deviation of returns.",
+        "ar": "الانحراف المعياري للعوائد."
+      },
+      "aliases": [
+        "volatility"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "sharpe",
+      "group": "metric",
+      "en": "Sharpe ratio",
+      "ar": "نسبة شارب",
+      "meaning": {
+        "en": "Excess return per unit of total volatility.",
+        "ar": "العائد الزائد لكل وحدة تذبذب."
+      },
+      "use": {
+        "en": "Require compatible risk-free rate and interval.",
+        "ar": "يتطلب معدل خالٍ من المخاطر وفترة متوافقة."
+      },
+      "calculation": {
+        "en": "mean(R − Rf) / sd(R)",
+        "ar": "متوسط (العائد − الخالي من المخاطر) ÷ انحراف العائد"
+      },
+      "aliases": [
+        "sharpe"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "sortino",
+      "group": "metric",
+      "en": "Sortino ratio",
+      "ar": "نسبة سورتينو",
+      "meaning": {
+        "en": "Excess return relative to downside deviation.",
+        "ar": "العائد الزائد بالنسبة للانحراف السلبي."
+      },
+      "use": {
+        "en": "Use an explicit target return.",
+        "ar": "حدد العائد المستهدف."
+      },
+      "calculation": {
+        "en": "mean(R − target) / downside deviation",
+        "ar": "متوسط (العائد − المستهدف) ÷ الانحراف السلبي"
+      },
+      "aliases": [
+        "sortino"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "calmar",
+      "group": "metric",
+      "en": "Calmar ratio",
+      "ar": "نسبة كالمار",
+      "meaning": {
+        "en": "Annualized return relative to maximum drawdown.",
+        "ar": "العائد السنوي نسبة إلى أقصى تراجع."
+      },
+      "use": {
+        "en": "Requires sufficient annualization evidence.",
+        "ar": "يتطلب أدلة كافية للتحويل السنوي."
+      },
+      "calculation": {
+        "en": "Annualized return / maximum drawdown",
+        "ar": "العائد السنوي ÷ أقصى تراجع"
+      },
+      "aliases": [
+        "calmar"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "alpha",
+      "group": "metric",
+      "en": "Alpha",
+      "ar": "ألفا",
+      "meaning": {
+        "en": "Intercept of excess-return benchmark regression.",
+        "ar": "ثابت انحدار العائد الزائد مقابل المؤشر."
+      },
+      "use": {
+        "en": "Use aligned returns and risk-free rate.",
+        "ar": "استخدم عوائد متزامنة ومعدل خالٍ من المخاطر."
+      },
+      "calculation": {
+        "en": "mean(Rp−Rf) − beta × mean(Rb−Rf)",
+        "ar": "متوسط عائد المحفظة الزائد − بيتا × متوسط عائد المؤشر الزائد"
+      },
+      "aliases": [
+        "alpha"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "beta",
+      "group": "metric",
+      "en": "Beta",
+      "ar": "بيتا",
+      "meaning": {
+        "en": "Sensitivity to benchmark returns.",
+        "ar": "الحساسية لعائد المؤشر المرجعي."
+      },
+      "use": {
+        "en": "Check benchmark relevance.",
+        "ar": "تحقق من ملاءمة المؤشر."
+      },
+      "calculation": {
+        "en": "cov(Rp,Rb) / var(Rb)",
+        "ar": "التغاير ÷ تباين عائد المؤشر"
+      },
+      "aliases": [
+        "beta"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "correlation",
+      "group": "metric",
+      "en": "Correlation",
+      "ar": "الارتباط",
+      "meaning": {
+        "en": "Linear co-movement of two return series.",
+        "ar": "الحركة الخطية المشتركة لسلسلتين."
+      },
+      "use": {
+        "en": "Use matched periods; not causation.",
+        "ar": "استخدم فترات متوافقة؛ ليس سببية."
+      },
+      "calculation": {
+        "en": "cov(X,Y)/(sd(X)×sd(Y))",
+        "ar": "التغاير ÷ حاصل ضرب الانحرافين"
+      },
+      "aliases": [
+        "correlation"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "tracking_error",
+      "group": "metric",
+      "en": "Tracking error",
+      "ar": "خطأ التتبع",
+      "meaning": {
+        "en": "Variability of active returns.",
+        "ar": "تذبذب العائد النشط."
+      },
+      "use": {
+        "en": "Compare a fund with its benchmark.",
+        "ar": "قارن الصندوق بمؤشره."
+      },
+      "calculation": {
+        "en": "sd(Rp − Rb)",
+        "ar": "الانحراف المعياري لفارق العائد"
+      },
+      "aliases": [
+        "tracking error"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "information_ratio",
+      "group": "metric",
+      "en": "Information ratio",
+      "ar": "نسبة المعلومات",
+      "meaning": {
+        "en": "Active return per unit of tracking error.",
+        "ar": "العائد النشط لكل وحدة خطأ تتبع."
+      },
+      "use": {
+        "en": "Compare active strategy consistency.",
+        "ar": "قارن اتساق الاستراتيجيات النشطة."
+      },
+      "calculation": {
+        "en": "mean(Rp − Rb) / sd(Rp − Rb)",
+        "ar": "متوسط فارق العائد ÷ انحرافه"
+      },
+      "aliases": [
+        "information ratio"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "cvar",
+      "group": "metric",
+      "en": "CVaR loss",
+      "ar": "الخسارة المتوقعة في الذيل",
+      "meaning": {
+        "en": "Expected loss in the worst tail of modeled outcomes.",
+        "ar": "متوسط الخسارة في أسوأ ذيل من النتائج النموذجية."
+      },
+      "use": {
+        "en": "Change confidence and penalty; results depend on scenarios.",
+        "ar": "غيّر مستوى الثقة والعقوبة؛ تعتمد النتيجة على السيناريوهات."
+      },
+      "calculation": {
+        "en": "min over t≥0 of t + mean(max(L−t,0))/(1−α).",
+        "ar": "أقل قيمة لـ t + متوسط max(L−t,0) ÷ (1−α) حيث t غير سالب."
+      },
+      "aliases": [
+        "cvar",
+        "CVaR loss %",
+        "CVaR confidence (0.50–0.99)",
+        "Downside penalty λ",
+        "CVaR"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "var",
+      "group": "metric",
+      "en": "Value at risk",
+      "ar": "القيمة المعرضة للمخاطر",
+      "meaning": {
+        "en": "Loss quantile under a chosen model.",
+        "ar": "كمية الخسارة عند مستوى احتمال محدد."
+      },
+      "use": {
+        "en": "Use alongside tail risk.",
+        "ar": "استخدمها مع مخاطر الذيل."
+      },
+      "calculation": {
+        "en": "Loss quantile at confidence α.",
+        "ar": "كمية الخسارة عند مستوى الثقة α."
+      },
+      "aliases": [
+        "var"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "expected_return_pct",
+      "group": "metric",
+      "en": "Expected return",
+      "ar": "العائد المتوقع",
+      "meaning": {
+        "en": "Mean modeled future portfolio return.",
+        "ar": "متوسط العائد المستقبلي النموذجي."
+      },
+      "use": {
+        "en": "Review forecasts; not a promise.",
+        "ar": "راجع التوقعات؛ ليست ضماناً."
+      },
+      "calculation": {
+        "en": "100 × average terminal return across scenarios.",
+        "ar": "100 × متوسط العائد النهائي عبر السيناريوهات."
+      },
+      "aliases": [
+        "expected return pct",
+        "Expected return %"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "equity",
+      "group": "metric",
+      "en": "Equity",
+      "ar": "قيمة المحفظة",
+      "meaning": {
+        "en": "Marked value of cash and holdings.",
+        "ar": "قيمة النقد والحيازات بسعر التقييم."
+      },
+      "use": {
+        "en": "Track changes after orders.",
+        "ar": "تابع التغير بعد الأوامر."
+      },
+      "calculation": {
+        "en": "Cash + Σ(units × mark).",
+        "ar": "النقد + مجموع (الوحدات × سعر التقييم)."
+      },
+      "aliases": [
+        "equity",
+        "Equity EGP",
+        "Virtual equity",
+        "Ending equity"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "cash",
+      "group": "metric",
+      "en": "Cash",
+      "ar": "النقد",
+      "meaning": {
+        "en": "Available uninvested cash.",
+        "ar": "النقد غير المستثمر المتاح."
+      },
+      "use": {
+        "en": "Check affordability and reserves.",
+        "ar": "تحقق من القدرة الشرائية والاحتياطيات."
+      },
+      "calculation": {
+        "en": "Prior cash − buy cost + sell proceeds − fees.",
+        "ar": "النقد السابق − تكلفة الشراء + حصيلة البيع − الرسوم."
+      },
+      "aliases": [
+        "cash",
+        "Initial available cash (virtual EGP)",
+        "Cash reserve %"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "exposure",
+      "group": "metric",
+      "en": "Exposure",
+      "ar": "التعرض",
+      "meaning": {
+        "en": "Value subject to asset price risk.",
+        "ar": "القيمة المعرضة لمخاطر السعر."
+      },
+      "use": {
+        "en": "Check concentration and caps.",
+        "ar": "تحقق من التركيز والحدود."
+      },
+      "calculation": {
+        "en": "Σ holdings × marks / portfolio equity.",
+        "ar": "مجموع الحيازات × أسعار التقييم ÷ قيمة المحفظة."
+      },
+      "aliases": [
+        "exposure",
+        "Single asset cap %",
+        "Total exposure cap %",
+        "Entry allocation (%)"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "turnover",
+      "group": "metric",
+      "en": "Turnover",
+      "ar": "دوران التداول",
+      "meaning": {
+        "en": "Traded notional relative to starting equity.",
+        "ar": "قيمة التداول نسبة إلى القيمة الابتدائية."
+      },
+      "use": {
+        "en": "Limit transaction frequency and cost.",
+        "ar": "حد من تكرار التداول وتكلفته."
+      },
+      "calculation": {
+        "en": "Σ(abs(traded units) × mark) / pretrade equity.",
+        "ar": "مجموع (القيمة المطلقة للوحدات المتداولة × السعر) ÷ القيمة قبل التداول."
+      },
+      "aliases": [
+        "turnover",
+        "Per-step turnover cap %"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "fee",
+      "group": "metric",
+      "en": "Fee",
+      "ar": "الرسوم",
+      "meaning": {
+        "en": "Charge for simulated execution.",
+        "ar": "تكلفة التنفيذ المحاكى."
+      },
+      "use": {
+        "en": "Inspect assumed basis points.",
+        "ar": "افحص نقاط الأساس المفترضة."
+      },
+      "calculation": {
+        "en": "Notional × bps / 10,000 (engine rounds in cents).",
+        "ar": "القيمة × نقاط الأساس ÷ 10000 (التقريب بالقروش)."
+      },
+      "aliases": [
+        "fee",
+        "Transaction fee (bps)",
+        "Commission (bps)",
+        "Costs"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "spread",
+      "group": "metric",
+      "en": "Bid–ask spread",
+      "ar": "الفارق بين العرض والطلب",
+      "meaning": {
+        "en": "Difference between ask and bid.",
+        "ar": "الفرق بين سعر الطلب والعرض."
+      },
+      "use": {
+        "en": "Evaluate execution costs.",
+        "ar": "قيّم تكاليف التنفيذ."
+      },
+      "calculation": {
+        "en": "Ask − bid; relative spread = difference / mid.",
+        "ar": "الطلب − العرض؛ الفارق النسبي = الفرق ÷ الوسط."
+      },
+      "aliases": [
+        "spread",
+        "Normal half-spread (bps)",
+        "Stress half-spread (bps)"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "slippage",
+      "group": "metric",
+      "en": "Slippage",
+      "ar": "الانزلاق السعري",
+      "meaning": {
+        "en": "Difference between expected and simulated execution price.",
+        "ar": "الفرق بين السعر المتوقع وسعر التنفيذ المحاكى."
+      },
+      "use": {
+        "en": "Stress-test assumptions.",
+        "ar": "اختبر الافتراضات تحت الضغط."
+      },
+      "calculation": {
+        "en": "Execution price − reference price, with side-aware sign.",
+        "ar": "سعر التنفيذ − المرجع مع مراعاة اتجاه الصفقة."
+      },
+      "aliases": [
+        "slippage",
+        "Extra slippage (bps)",
+        "Half spread + slippage (bps)"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "nav",
+      "group": "metric",
+      "en": "NAV",
+      "ar": "صافي قيمة الأصول",
+      "meaning": {
+        "en": "Per-unit value of a fund.",
+        "ar": "قيمة الوحدة بالصندوق."
+      },
+      "use": {
+        "en": "Compare same fund and denomination.",
+        "ar": "قارن الصندوق نفسه وفئة الوحدة."
+      },
+      "calculation": {
+        "en": "(Assets − liabilities) / outstanding units.",
+        "ar": "(الأصول − الالتزامات) ÷ الوحدات القائمة."
+      },
+      "aliases": [
+        "nav"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "pe",
+      "group": "metric",
+      "en": "P/E",
+      "ar": "مضاعف الربحية",
+      "meaning": {
+        "en": "Price per unit of earnings per share.",
+        "ar": "السعر مقابل ربح السهم."
+      },
+      "use": {
+        "en": "Compare compatible positive earnings.",
+        "ar": "قارن أرباحاً موجبة ومتوافقة."
+      },
+      "calculation": {
+        "en": "Price / EPS.",
+        "ar": "السعر ÷ ربح السهم."
+      },
+      "aliases": [
+        "pe"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "pb",
+      "group": "metric",
+      "en": "P/B",
+      "ar": "مضاعف القيمة الدفترية",
+      "meaning": {
+        "en": "Price per unit of book value.",
+        "ar": "السعر مقابل القيمة الدفترية."
+      },
+      "use": {
+        "en": "Review accounting basis and sector.",
+        "ar": "راجع الأساس المحاسبي والقطاع."
+      },
+      "calculation": {
+        "en": "Price / book value per share.",
+        "ar": "السعر ÷ القيمة الدفترية للسهم."
+      },
+      "aliases": [
+        "pb"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "dcf",
+      "group": "metric",
+      "en": "Discounted cash flow",
+      "ar": "التدفقات النقدية المخصومة",
+      "meaning": {
+        "en": "Present value of hypothetical future cash flows.",
+        "ar": "القيمة الحالية للتدفقات المستقبلية المفترضة."
+      },
+      "use": {
+        "en": "Use non-bank compatible cash flows; vary WACC and growth.",
+        "ar": "استخدم تدفقات متوافقة للشركات غير المصرفية وغيّر الخصم والنمو."
+      },
+      "calculation": {
+        "en": "EV = Σ FCFFt/(1+WACC)^t + discounted terminal value; equity = EV−net debt.",
+        "ar": "قيمة المنشأة = مجموع التدفقات المخصومة + القيمة النهائية المخصومة؛ حقوق الملكية = قيمة المنشأة − صافي الدين."
+      },
+      "aliases": [
+        "dcf",
+        "Corporate discounted cash flow",
+        "DCF"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "wacc",
+      "group": "metric",
+      "en": "WACC",
+      "ar": "المتوسط المرجح لتكلفة رأس المال",
+      "meaning": {
+        "en": "Blended financing discount rate.",
+        "ar": "معدل خصم تمويلي مرجح."
+      },
+      "use": {
+        "en": "Must exceed terminal growth in perpetuity model.",
+        "ar": "يجب أن يتجاوز النمو النهائي في النموذج الدائم."
+      },
+      "calculation": {
+        "en": "E/(D+E)×Re + D/(D+E)×Rd×(1−tax).",
+        "ar": "وزن حقوق الملكية × تكلفتها + وزن الدين × تكلفته بعد الضريبة."
+      },
+      "aliases": [
+        "wacc"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "leverage",
+      "group": "metric",
+      "en": "Leverage",
+      "ar": "الرافعة المالية",
+      "meaning": {
+        "en": "Exposure relative to own equity.",
+        "ar": "التعرض نسبة إلى حقوق المستثمر."
+      },
+      "use": {
+        "en": "Use static stress lab only; margin trading disabled.",
+        "ar": "استخدم مختبر الضغط الثابت فقط؛ التداول بالهامش معطل."
+      },
+      "calculation": {
+        "en": "Exposure / equity; static equity change = exposure × asset return.",
+        "ar": "التعرض ÷ حقوق المستثمر؛ تغير الحقوق = التعرض × عائد الأصل."
+      },
+      "aliases": [
+        "leverage",
+        "Leverage stress lab",
+        "Exposure multiple"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "market_breadth",
+      "group": "metric",
+      "en": "Market breadth",
+      "ar": "اتساع السوق",
+      "meaning": {
+        "en": "Number of advancing versus declining proxies.",
+        "ar": "عدد الأصول الصاعدة مقابل الهابطة."
+      },
+      "use": {
+        "en": "Inspect participation, not just index direction.",
+        "ar": "افحص المشاركة لا اتجاه المؤشر فقط."
+      },
+      "calculation": {
+        "en": "Count up, down and flat; advancing share = up / total.",
+        "ar": "عد الصاعد والهابط والثابت؛ حصة الصعود = الصاعد ÷ الإجمالي."
+      },
+      "aliases": [
+        "market breadth"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "real_return",
+      "group": "metric",
+      "en": "Real return",
+      "ar": "العائد الحقيقي",
+      "meaning": {
+        "en": "Purchasing-power change after inflation.",
+        "ar": "تغير القوة الشرائية بعد التضخم."
+      },
+      "use": {
+        "en": "Use same-period inflation.",
+        "ar": "استخدم التضخم للفترة ذاتها."
+      },
+      "calculation": {
+        "en": "(1+nominal return)/(1+inflation)−1.",
+        "ar": "(1 + العائد الاسمي) ÷ (1 + التضخم) − 1."
+      },
+      "aliases": [
+        "real return"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "fx_return",
+      "group": "metric",
+      "en": "Currency-adjusted return",
+      "ar": "العائد المعدل بالعملة",
+      "meaning": {
+        "en": "Investment return expressed in another currency.",
+        "ar": "العائد بعملة أخرى."
+      },
+      "use": {
+        "en": "Align currencies and FX direction.",
+        "ar": "طابق العملات واتجاه الصرف."
+      },
+      "calculation": {
+        "en": "For USD asset in EGP: (1+USD return)×(1+USD/EGP change)−1.",
+        "ar": "لأصل بالدولار بالجنيه: (1 + عائد الدولار) × (1 + تغير الدولار/الجنيه) − 1."
+      },
+      "aliases": [
+        "fx return"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "benchmark",
+      "group": "metric",
+      "en": "Benchmark",
+      "ar": "المؤشر المرجعي",
+      "meaning": {
+        "en": "Reference used to compare performance.",
+        "ar": "مرجع لمقارنة الأداء."
+      },
+      "use": {
+        "en": "Match time period, basis and costs.",
+        "ar": "طابق الفترة والأساس والتكاليف."
+      },
+      "calculation": {
+        "en": "Relative return = portfolio return − reference return.",
+        "ar": "العائد النسبي = عائد المحفظة − عائد المرجع."
+      },
+      "aliases": [
+        "benchmark",
+        "EGX30 gross factor"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "position_stop",
+      "group": "metric",
+      "en": "Position stop",
+      "ar": "وقف خسارة المركز",
+      "meaning": {
+        "en": "Conditional exit when modeled position loss crosses a limit.",
+        "ar": "خروج مشروط عند تجاوز خسارة المركز حداً."
+      },
+      "use": {
+        "en": "Set threshold; zero disables in backtest.",
+        "ar": "حدد الحد؛ الصفر يعطله في الاختبار."
+      },
+      "calculation": {
+        "en": "Compare loss against threshold; next-step fill is not guaranteed at stop.",
+        "ar": "قارن الخسارة بالحد؛ التنفيذ التالي ليس مضموناً عند سعر الوقف."
+      },
+      "aliases": [
+        "position stop",
+        "Position stop (%) · 0 disables"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "equity_assets",
+      "group": "metric",
+      "en": "Equity / assets",
+      "ar": "حقوق الملكية / الأصول",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "total equity / total assets × 100",
+        "ar": "حقوق الملكية ÷ إجمالي الأصول × 100"
+      },
+      "aliases": [
+        "equity assets"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "liabilities_assets",
+      "group": "metric",
+      "en": "Liabilities / assets",
+      "ar": "الالتزامات / الأصول",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "total liabilities / total assets × 100",
+        "ar": "الالتزامات ÷ إجمالي الأصول × 100"
+      },
+      "aliases": [
+        "liabilities assets"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "profit_ending_assets",
+      "group": "metric",
+      "en": "Profit / ending assets",
+      "ar": "الربح / أصول نهاية الفترة",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "net profit / ending assets (not ROA using average assets) × 100",
+        "ar": "صافي الربح ÷ أصول نهاية الفترة (ليس ROA بمتوسط الأصول) × 100"
+      },
+      "aliases": [
+        "profit ending assets"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "profit_ending_equity",
+      "group": "metric",
+      "en": "Profit / ending equity",
+      "ar": "الربح / حقوق نهاية الفترة",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "net profit / ending equity (not ROE using average equity) × 100",
+        "ar": "صافي الربح ÷ حقوق نهاية الفترة (ليس ROE بمتوسط الحقوق) × 100"
+      },
+      "aliases": [
+        "profit ending equity"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "balance_sheet_residual",
+      "group": "metric",
+      "en": "Balance sheet residual",
+      "ar": "فرق الميزانية",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "assets − liabilities − equity",
+        "ar": "الأصول − الالتزامات − حقوق الملكية"
+      },
+      "aliases": [
+        "balance sheet residual"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "cash_capex_revenue",
+      "group": "metric",
+      "en": "Cash CAPEX / revenue",
+      "ar": "الإنفاق الرأسمالي النقدي / الإيراد",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "cash CAPEX / revenue × 100",
+        "ar": "الإنفاق الرأسمالي النقدي ÷ الإيراد × 100"
+      },
+      "aliases": [
+        "cash capex revenue"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "ebitda_margin",
+      "group": "metric",
+      "en": "EBITDA margin",
+      "ar": "هامش EBITDA",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "EBITDA / revenue × 100",
+        "ar": "الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك ÷ الإيراد × 100"
+      },
+      "aliases": [
+        "ebitda margin"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "fcff_margin",
+      "group": "metric",
+      "en": "Reported FCFF margin",
+      "ar": "هامش التدفق الحر المعلن",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "reported FCFF / revenue × 100",
+        "ar": "التدفق النقدي الحر المعلن للمنشأة ÷ الإيراد × 100"
+      },
+      "aliases": [
+        "fcff margin"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "net_profit_margin",
+      "group": "metric",
+      "en": "Net profit margin",
+      "ar": "هامش صافي الربح",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "net profit / revenue × 100",
+        "ar": "صافي الربح ÷ الإيراد × 100"
+      },
+      "aliases": [
+        "net profit margin"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "effective_tax_rate",
+      "group": "metric",
+      "en": "Effective tax rate",
+      "ar": "معدل الضريبة الفعلي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "absolute tax expense / profit before tax × 100",
+        "ar": "القيمة المطلقة لمصروف الضريبة ÷ الربح قبل الضريبة × 100"
+      },
+      "aliases": [
+        "effective tax rate"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "loans_deposits",
+      "group": "metric",
+      "en": "Loans / deposits",
+      "ar": "القروض / الودائع",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "net customer loans / customer deposits × 100",
+        "ar": "صافي قروض العملاء ÷ ودائع العملاء × 100"
+      },
+      "aliases": [
+        "loans deposits"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "assets_highlights_yoy",
+      "group": "metric",
+      "en": "Assets (highlights) YoY growth",
+      "ar": "نمو الأصول (الملخص) السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "assets highlights yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "customer_deposits_yoy",
+      "group": "metric",
+      "en": "Customer deposits YoY growth",
+      "ar": "نمو ودائع العملاء السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "customer deposits yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "deposits_highlights_yoy",
+      "group": "metric",
+      "en": "Deposits (highlights) YoY growth",
+      "ar": "نمو الودائع (الملخص) السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "deposits highlights yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "net_operating_income_yoy",
+      "group": "metric",
+      "en": "Net operating income YoY growth",
+      "ar": "نمو صافي الدخل التشغيلي السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "net operating income yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "net_profit_as_disclosed_yoy",
+      "group": "metric",
+      "en": "Disclosed net profit YoY growth",
+      "ar": "نمو صافي الربح المعلن السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "net profit as disclosed yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "net_profit_highlights_yoy",
+      "group": "metric",
+      "en": "Net profit (highlights) YoY growth",
+      "ar": "نمو صافي الربح (الملخص) السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "net profit highlights yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "net_profit_yoy",
+      "group": "metric",
+      "en": "Net profit YoY growth",
+      "ar": "نمو صافي الربح السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "net profit yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "total_assets_yoy",
+      "group": "metric",
+      "en": "Total assets YoY growth",
+      "ar": "نمو إجمالي الأصول السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "total assets yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "total_equity_yoy",
+      "group": "metric",
+      "en": "Total equity YoY growth",
+      "ar": "نمو إجمالي حقوق الملكية السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "total equity yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "revenue_yoy",
+      "group": "metric",
+      "en": "Revenue YoY growth",
+      "ar": "نمو الإيراد السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "revenue yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "fcff_reported_yoy",
+      "group": "metric",
+      "en": "Reported FCFF YoY growth",
+      "ar": "نمو التدفق النقدي الحر المعلن السنوي",
+      "meaning": {
+        "en": "Financial statement indicator on the reported basis.",
+        "ar": "مؤشر للقوائم المالية وفق الأساس المعلن."
+      },
+      "use": {
+        "en": "Compare compatible periods and accounting scopes; inspect source inputs.",
+        "ar": "قارن الفترات والنطاقات المحاسبية المتوافقة وافحص المصدر."
+      },
+      "calculation": {
+        "en": "(current comparable value / positive prior value − 1) × 100",
+        "ar": "(القيمة الحالية المتوافقة ÷ القيمة السابقة الموجبة − 1) × 100"
+      },
+      "aliases": [
+        "fcff reported yoy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "sma3",
+      "group": "metric",
+      "en": "SMA 3",
+      "ar": "المتوسط المتحرك البسيط 3",
+      "meaning": {
+        "en": "Average of recent closing observations.",
+        "ar": "متوسط الإغلاقات الأخيرة."
+      },
+      "use": {
+        "en": "Compare price and average; requires complete window.",
+        "ar": "قارن السعر والمتوسط؛ يتطلب اكتمال النافذة."
+      },
+      "calculation": {
+        "en": "Sum of last 3 closes / 3.",
+        "ar": "مجموع آخر 3 إغلاقات ÷ 3."
+      },
+      "aliases": [
+        "SMA3"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "sma5",
+      "group": "metric",
+      "en": "SMA 5",
+      "ar": "المتوسط المتحرك البسيط 5",
+      "meaning": {
+        "en": "Average of recent closing observations.",
+        "ar": "متوسط الإغلاقات الأخيرة."
+      },
+      "use": {
+        "en": "Compare price and average; requires complete window.",
+        "ar": "قارن السعر والمتوسط؛ يتطلب اكتمال النافذة."
+      },
+      "calculation": {
+        "en": "Sum of last 5 closes / 5.",
+        "ar": "مجموع آخر 5 إغلاقات ÷ 5."
+      },
+      "aliases": [
+        "SMA5"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "sma20",
+      "group": "metric",
+      "en": "SMA 20",
+      "ar": "المتوسط المتحرك البسيط 20",
+      "meaning": {
+        "en": "Average of recent closing observations.",
+        "ar": "متوسط الإغلاقات الأخيرة."
+      },
+      "use": {
+        "en": "Compare price and average; requires complete window.",
+        "ar": "قارن السعر والمتوسط؛ يتطلب اكتمال النافذة."
+      },
+      "calculation": {
+        "en": "Sum of last 20 closes / 20.",
+        "ar": "مجموع آخر 20 إغلاقات ÷ 20."
+      },
+      "aliases": [
+        "SMA20"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "sma50",
+      "group": "metric",
+      "en": "SMA 50",
+      "ar": "المتوسط المتحرك البسيط 50",
+      "meaning": {
+        "en": "Average of recent closing observations.",
+        "ar": "متوسط الإغلاقات الأخيرة."
+      },
+      "use": {
+        "en": "Compare price and average; requires complete window.",
+        "ar": "قارن السعر والمتوسط؛ يتطلب اكتمال النافذة."
+      },
+      "calculation": {
+        "en": "Sum of last 50 closes / 50.",
+        "ar": "مجموع آخر 50 إغلاقات ÷ 50."
+      },
+      "aliases": [
+        "SMA50"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "sma200",
+      "group": "metric",
+      "en": "SMA 200",
+      "ar": "المتوسط المتحرك البسيط 200",
+      "meaning": {
+        "en": "Average of recent closing observations.",
+        "ar": "متوسط الإغلاقات الأخيرة."
+      },
+      "use": {
+        "en": "Compare price and average; requires complete window.",
+        "ar": "قارن السعر والمتوسط؛ يتطلب اكتمال النافذة."
+      },
+      "calculation": {
+        "en": "Sum of last 200 closes / 200.",
+        "ar": "مجموع آخر 200 إغلاقات ÷ 200."
+      },
+      "aliases": [
+        "SMA200"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "ema5",
+      "group": "metric",
+      "en": "EMA 5",
+      "ar": "المتوسط المتحرك الأسي 5",
+      "meaning": {
+        "en": "Weighted average emphasizing recent prices.",
+        "ar": "متوسط مرجح يعطي وزناً للأسعار الحديثة."
+      },
+      "use": {
+        "en": "Inspect trend; requires warm-up.",
+        "ar": "افحص الاتجاه؛ يتطلب فترة تهيئة."
+      },
+      "calculation": {
+        "en": "Initial SMA; EMA = P×2/(5+1) + prior EMA×(1−2/(5+1)).",
+        "ar": "بداية بمتوسط بسيط؛ السعر × 2/(5+1) + المتوسط السابق × (1−2/(5+1))."
+      },
+      "aliases": [
+        "EMA5"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "ema12",
+      "group": "metric",
+      "en": "EMA 12",
+      "ar": "المتوسط المتحرك الأسي 12",
+      "meaning": {
+        "en": "Weighted average emphasizing recent prices.",
+        "ar": "متوسط مرجح يعطي وزناً للأسعار الحديثة."
+      },
+      "use": {
+        "en": "Inspect trend; requires warm-up.",
+        "ar": "افحص الاتجاه؛ يتطلب فترة تهيئة."
+      },
+      "calculation": {
+        "en": "Initial SMA; EMA = P×2/(12+1) + prior EMA×(1−2/(12+1)).",
+        "ar": "بداية بمتوسط بسيط؛ السعر × 2/(12+1) + المتوسط السابق × (1−2/(12+1))."
+      },
+      "aliases": [
+        "EMA12"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "ema26",
+      "group": "metric",
+      "en": "EMA 26",
+      "ar": "المتوسط المتحرك الأسي 26",
+      "meaning": {
+        "en": "Weighted average emphasizing recent prices.",
+        "ar": "متوسط مرجح يعطي وزناً للأسعار الحديثة."
+      },
+      "use": {
+        "en": "Inspect trend; requires warm-up.",
+        "ar": "افحص الاتجاه؛ يتطلب فترة تهيئة."
+      },
+      "calculation": {
+        "en": "Initial SMA; EMA = P×2/(26+1) + prior EMA×(1−2/(26+1)).",
+        "ar": "بداية بمتوسط بسيط؛ السعر × 2/(26+1) + المتوسط السابق × (1−2/(26+1))."
+      },
+      "aliases": [
+        "EMA26"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "rsi3",
+      "group": "metric",
+      "en": "RSI 3",
+      "ar": "مؤشر القوة النسبية 3",
+      "meaning": {
+        "en": "Momentum oscillator between 0 and 100.",
+        "ar": "مؤشر زخم بين صفر و100."
+      },
+      "use": {
+        "en": "Study momentum, not an automatic order.",
+        "ar": "ادرس الزخم وليس أمراً تلقائياً."
+      },
+      "calculation": {
+        "en": "100 − 100/(1+Wilder average gain / average loss).",
+        "ar": "100 − 100 ÷ (1 + متوسط المكاسب بطريقة وايلدر ÷ متوسط الخسائر)."
+      },
+      "aliases": [
+        "RSI3"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "rsi14",
+      "group": "metric",
+      "en": "RSI 14",
+      "ar": "مؤشر القوة النسبية 14",
+      "meaning": {
+        "en": "Momentum oscillator between 0 and 100.",
+        "ar": "مؤشر زخم بين صفر و100."
+      },
+      "use": {
+        "en": "Study momentum, not an automatic order.",
+        "ar": "ادرس الزخم وليس أمراً تلقائياً."
+      },
+      "calculation": {
+        "en": "100 − 100/(1+Wilder average gain / average loss).",
+        "ar": "100 − 100 ÷ (1 + متوسط المكاسب بطريقة وايلدر ÷ متوسط الخسائر)."
+      },
+      "aliases": [
+        "RSI14"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "macd",
+      "group": "metric",
+      "en": "MACD",
+      "ar": "ماكد",
+      "meaning": {
+        "en": "Difference of short and long exponential averages.",
+        "ar": "فرق المتوسطين الأسيين القصير والطويل."
+      },
+      "use": {
+        "en": "Inspect momentum and crossovers.",
+        "ar": "افحص الزخم والتقاطعات."
+      },
+      "calculation": {
+        "en": "EMA12 − EMA26.",
+        "ar": "المتوسط الأسي 12 − المتوسط الأسي 26."
+      },
+      "aliases": [
+        "macd"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "macd_signal",
+      "group": "metric",
+      "en": "MACD signal",
+      "ar": "خط إشارة ماكد",
+      "meaning": {
+        "en": "Smoothed MACD.",
+        "ar": "ماكد بعد التنعيم."
+      },
+      "use": {
+        "en": "Compare with MACD.",
+        "ar": "قارنه بماكد."
+      },
+      "calculation": {
+        "en": "EMA9 of MACD.",
+        "ar": "المتوسط الأسي 9 لماكد."
+      },
+      "aliases": [
+        "macd signal"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "macd_hist",
+      "group": "metric",
+      "en": "MACD histogram",
+      "ar": "مدرج ماكد",
+      "meaning": {
+        "en": "Difference from signal line.",
+        "ar": "الفرق عن خط الإشارة."
+      },
+      "use": {
+        "en": "Monitor momentum changes.",
+        "ar": "راقب تغير الزخم."
+      },
+      "calculation": {
+        "en": "MACD − signal.",
+        "ar": "ماكد − الإشارة."
+      },
+      "aliases": [
+        "macd hist"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "bb_upper",
+      "group": "metric",
+      "en": "Bollinger upper",
+      "ar": "حد بولينجر الأعلى",
+      "meaning": {
+        "en": "Upper volatility band.",
+        "ar": "الحد العلوي للتذبذب."
+      },
+      "use": {
+        "en": "Inspect deviations; requires 20 closes.",
+        "ar": "افحص الانحراف؛ يتطلب 20 إغلاقاً."
+      },
+      "calculation": {
+        "en": "SMA20 + 2 × population SD20.",
+        "ar": "متوسط 20 + ضعفي الانحراف المعياري السكاني."
+      },
+      "aliases": [
+        "bb upper"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "bb_lower",
+      "group": "metric",
+      "en": "Bollinger lower",
+      "ar": "حد بولينجر الأدنى",
+      "meaning": {
+        "en": "Lower volatility band.",
+        "ar": "الحد الأدنى للتذبذب."
+      },
+      "use": {
+        "en": "Inspect deviations.",
+        "ar": "افحص الانحراف."
+      },
+      "calculation": {
+        "en": "SMA20 − 2 × population SD20.",
+        "ar": "متوسط 20 − ضعفي الانحراف المعياري السكاني."
+      },
+      "aliases": [
+        "bb lower"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "atr14",
+      "group": "metric",
+      "en": "ATR 14",
+      "ar": "متوسط المدى الحقيقي 14",
+      "meaning": {
+        "en": "Smoothed true price range.",
+        "ar": "متوسط المدى الحقيقي المنعم."
+      },
+      "use": {
+        "en": "Compare volatility in price units.",
+        "ar": "قارن التذبذب بوحدات السعر."
+      },
+      "calculation": {
+        "en": "Wilder average of max(H−L, abs(H−prior C), abs(L−prior C)).",
+        "ar": "متوسط وايلدر لأكبر (الأعلى−الأدنى، الفرق المطلق للأعلى أو الأدنى مع الإغلاق السابق)."
+      },
+      "aliases": [
+        "atr14"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "stoch14",
+      "group": "metric",
+      "en": "Stochastic %K",
+      "ar": "مؤشر ستوكاستيك %K",
+      "meaning": {
+        "en": "Close relative to recent high-low range.",
+        "ar": "الإغلاق نسبة لنطاق أعلى وأدنى سعر."
+      },
+      "use": {
+        "en": "Use compatible OHLC history.",
+        "ar": "استخدم تاريخ OHLC متوافقاً."
+      },
+      "calculation": {
+        "en": "100 × (C−lowest L14)/(highest H14−lowest L14).",
+        "ar": "100 × (الإغلاق−أدنى قاع14) ÷ (أعلى قمة14−أدنى قاع14)."
+      },
+      "aliases": [
+        "stoch14"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "obv",
+      "group": "metric",
+      "en": "OBV",
+      "ar": "حجم التداول التراكمي الاتجاهي",
+      "meaning": {
+        "en": "Cumulative signed volume.",
+        "ar": "حجم تداول تراكمي باتجاه السعر."
+      },
+      "use": {
+        "en": "Use meaningful vendor volume only.",
+        "ar": "استخدم حجم تداول موثوق المعنى."
+      },
+      "calculation": {
+        "en": "Previous OBV + sign(close change)×volume.",
+        "ar": "OBV السابق + إشارة تغير الإغلاق × الحجم."
+      },
+      "aliases": [
+        "obv"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "vwap",
+      "group": "metric",
+      "en": "VWAP",
+      "ar": "متوسط السعر المرجح بالحجم",
+      "meaning": {
+        "en": "Volume-weighted average of revealed synthetic trades.",
+        "ar": "متوسط سعر الصفقات الاصطناعية المكشوفة مرجحاً بالحجم."
+      },
+      "use": {
+        "en": "Intraday exercise only.",
+        "ar": "تمرين لحظي فقط."
+      },
+      "calculation": {
+        "en": "Σ(price×allocated volume) / Σ(volume).",
+        "ar": "مجموع (السعر × الحجم المخصص) ÷ مجموع الحجم."
+      },
+      "aliases": [
+        "vwap",
+        "synthetic_vwap",
+        "synthetic vwap"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "volume_ratio5",
+      "group": "metric",
+      "en": "Relative volume",
+      "ar": "الحجم النسبي",
+      "meaning": {
+        "en": "Current volume versus prior five observations.",
+        "ar": "الحجم الحالي مقابل آخر خمس رصدات."
+      },
+      "use": {
+        "en": "Look for anomalies; not causation.",
+        "ar": "ابحث عن الشذوذ؛ لا يثبت السببية."
+      },
+      "calculation": {
+        "en": "Current volume / mean(previous five volumes).",
+        "ar": "الحجم الحالي ÷ متوسط الأحجام الخمسة السابقة."
+      },
+      "aliases": [
+        "volume ratio5"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "support5",
+      "group": "metric",
+      "en": "Support",
+      "ar": "الدعم",
+      "meaning": {
+        "en": "Lowest previous five closes.",
+        "ar": "أدنى خمسة إغلاقات سابقة."
+      },
+      "use": {
+        "en": "Inspect a simple prior level.",
+        "ar": "افحص مستوى سابقاً بسيطاً."
+      },
+      "calculation": {
+        "en": "min(previous 5 closes).",
+        "ar": "أدنى آخر خمسة إغلاقات قبل الحالي."
+      },
+      "aliases": [
+        "support5"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "resistance5",
+      "group": "metric",
+      "en": "Resistance",
+      "ar": "المقاومة",
+      "meaning": {
+        "en": "Highest previous five closes.",
+        "ar": "أعلى خمسة إغلاقات سابقة."
+      },
+      "use": {
+        "en": "Inspect breakout reference.",
+        "ar": "افحص مرجع الاختراق."
+      },
+      "calculation": {
+        "en": "max(previous 5 closes).",
+        "ar": "أعلى آخر خمسة إغلاقات قبل الحالي."
+      },
+      "aliases": [
+        "resistance5"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "engulfing",
+      "group": "metric",
+      "en": "Engulfing pattern",
+      "ar": "نمط الابتلاع",
+      "meaning": {
+        "en": "Two-candle body engulfing with opposite colors.",
+        "ar": "ابتلاع جسم شمعة لأخرى باتجاه معاكس."
+      },
+      "use": {
+        "en": "Inspect pattern with context.",
+        "ar": "افحص النمط مع السياق."
+      },
+      "calculation": {
+        "en": "Compare current and preceding open/close body endpoints.",
+        "ar": "قارن طرفي جسم الشمعة الحالية والسابقة."
+      },
+      "aliases": [
+        "engulfing",
+        "bullish_body_engulfing",
+        "bearish_body_engulfing"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "doji",
+      "group": "metric",
+      "en": "Doji",
+      "ar": "دوجي",
+      "meaning": {
+        "en": "Small candle body relative to range.",
+        "ar": "جسم شمعة صغير نسبة إلى مداها."
+      },
+      "use": {
+        "en": "Inspect potential indecision.",
+        "ar": "افحص احتمال التردد."
+      },
+      "calculation": {
+        "en": "abs(close−open) ≤ threshold×(high−low).",
+        "ar": "القيمة المطلقة (الإغلاق−الافتتاح) ≤ الحد × (الأعلى−الأدنى)."
+      },
+      "aliases": [
+        "doji",
+        "doji_10pct_range"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "assessment",
+      "group": "tool",
+      "en": "Investor assessment",
+      "ar": "تقييم المستثمر",
+      "meaning": {
+        "en": "Adaptive financial and personality assessment.",
+        "ar": "تقييم تكيفي للظروف المالية والشخصية."
+      },
+      "use": {
+        "en": "Enter fictional inputs, answer questions and review conflicts.",
+        "ar": "أدخل بيانات افتراضية وأجب عن الأسئلة وراجع التعارضات."
+      },
+      "calculation": {
+        "en": "Frozen V4.1 rules, evidence gates and financial solvers; no live authorization.",
+        "ar": "قواعد V4.1 وبوابات الأدلة والحلول المالية؛ لا تصريح تداول فعلي."
+      },
+      "aliases": [
+        "Live-input assessment",
+        "Initial financial intake",
+        "Start adaptive assessment",
+        "Start assessment"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "plan",
+      "group": "tool",
+      "en": "Conditional plan",
+      "ar": "الخطة المشروطة",
+      "meaning": {
+        "en": "Modeled allocation and goals subject to eligibility.",
+        "ar": "تخصيص وأهداف نموذجية مشروطة بالأهلية."
+      },
+      "use": {
+        "en": "Review restrictions and verify assumptions.",
+        "ar": "راجع القيود وتحقق من الافتراضات."
+      },
+      "calculation": {
+        "en": "Existing financial readiness and allocation engine; approved live allocation = 0.",
+        "ar": "محرك الجاهزية والتخصيص القائم؛ التخصيص الفعلي المصرح = صفر."
+      },
+      "aliases": [
+        "Calculated conditional plan",
+        "Calculate conditional plan",
+        "Financial goals"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "academy",
+      "group": "tool",
+      "en": "Trading Academy",
+      "ar": "أكاديمية التداول",
+      "meaning": {
+        "en": "Lessons, curricula and recorded knowledge checks.",
+        "ar": "دروس ومناهج واختبارات معرفة مسجلة."
+      },
+      "use": {
+        "en": "Complete prerequisites, study and submit quizzes.",
+        "ar": "أكمل المتطلبات وادرس وأرسل الاختبار."
+      },
+      "calculation": {
+        "en": "Score = correct answers; completion requires full marks.",
+        "ar": "الدرجة = الإجابات الصحيحة؛ الإكمال يتطلب الدرجة الكاملة."
+      },
+      "aliases": [
+        "Open Academy",
+        "Learning progress",
+        "Curriculum by strategy"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "progress",
+      "group": "tool",
+      "en": "Investor evidence journal",
+      "ar": "سجل أدلة المستثمر",
+      "meaning": {
+        "en": "Recorded assessment, learning and simulated actions.",
+        "ar": "سجل التقييم والتعلم والإجراءات المحاكاة."
+      },
+      "use": {
+        "en": "Review history; do not infer risk tolerance automatically.",
+        "ar": "راجع التاريخ؛ لا تستنتج تحمل المخاطر تلقائياً."
+      },
+      "calculation": {
+        "en": "Counts persisted events, fills, rejections and computed returns.",
+        "ar": "عد الأحداث والتنفيذ والرفض والعوائد المحسوبة."
+      },
+      "aliases": [
+        "Investor evidence",
+        "Review evidence"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "market",
+      "group": "tool",
+      "en": "Augmented Market World",
+      "ar": "عالم السوق المعزز",
+      "meaning": {
+        "en": "Synthetic market replay with global factors and virtual orders.",
+        "ar": "إعادة تشغيل سوق اصطناعي بعوامل عالمية وأوامر افتراضية."
+      },
+      "use": {
+        "en": "Choose scenario, instrument and advance steps.",
+        "ar": "اختر السيناريو والأصل وتقدم خطوة بخطوة."
+      },
+      "calculation": {
+        "en": "Reveal chronological price prefix; fill at next step with modeled fees.",
+        "ar": "عرض الأسعار حتى الخطوة الحالية؛ التنفيذ في الخطوة التالية برسوم نموذجية."
+      },
+      "aliases": [
+        "Start replay",
+        "Advance one step",
+        "Virtual portfolio",
+        "Queue buy",
+        "Queue sell"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "fundamental",
+      "group": "tool",
+      "en": "Fundamental analysis",
+      "ar": "التحليل الأساسي",
+      "meaning": {
+        "en": "Financial statement, fund and valuation evidence.",
+        "ar": "أدلة القوائم المالية والصناديق والتقييم."
+      },
+      "use": {
+        "en": "Choose an instrument and optional cutoff; inspect source and basis.",
+        "ar": "اختر الأصل وتاريخ القطع الاختياري وافحص المصدر والأساس."
+      },
+      "calculation": {
+        "en": "Ratios from compatible observations; scenario models use explicit assumptions.",
+        "ar": "نسب من مشاهدات متوافقة؛ النماذج تستخدم افتراضات صريحة."
+      },
+      "aliases": [
+        "Fundamental Lab",
+        "Open Fundamental Lab",
+        "Understand the investment behind the price",
+        "Calculated indicators"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "technical",
+      "group": "tool",
+      "en": "Technical analysis",
+      "ar": "التحليل الفني",
+      "meaning": {
+        "en": "Price, momentum, trend and volume indicators.",
+        "ar": "مؤشرات السعر والزخم والاتجاه والحجم."
+      },
+      "use": {
+        "en": "Select observed sample or revealed simulation prefix.",
+        "ar": "اختر عينة مرصودة أو الجزء المكشوف من المحاكاة."
+      },
+      "calculation": {
+        "en": "Calculate trailing indicators only when history is sufficient.",
+        "ar": "حساب المؤشرات المتأخرة فقط عند كفاية التاريخ."
+      },
+      "aliases": [
+        "Technical Lab",
+        "Open Technical Lab"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "intelligence",
+      "group": "tool",
+      "en": "Market Intelligence Lab",
+      "ar": "مختبر ذكاء السوق",
+      "meaning": {
+        "en": "Integrates dated news, macro reports and market conditions.",
+        "ar": "دمج الأخبار المؤرخة والتقارير الاقتصادية وظروف السوق."
+      },
+      "use": {
+        "en": "Select cutoff or saved replay; inspect disagreement and uncertainty.",
+        "ar": "اختر تاريخ القطع أو محاكاة محفوظة وافحص التعارض وعدم اليقين."
+      },
+      "calculation": {
+        "en": "Rule-based classification, latest eligible vintage and directional comparison.",
+        "ar": "تصنيف بالقواعد وأحدث إصدار متاح ومقارنة اتجاهية."
+      },
+      "aliases": [
+        "Market context & evidence",
+        "Open Intelligence Lab"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "backtest",
+      "group": "tool",
+      "en": "Strategy Backtesting Lab",
+      "ar": "مختبر اختبار الاستراتيجيات",
+      "meaning": {
+        "en": "Chronological simulated strategy evaluation.",
+        "ar": "تقييم استراتيجية بمحاكاة زمنية."
+      },
+      "use": {
+        "en": "Select a supported rule and scenario; compare benchmark and costs.",
+        "ar": "اختر قاعدة وسيناريو مدعومين وقارن المرجع والتكاليف."
+      },
+      "calculation": {
+        "en": "Rule at t, hypothetical fill at t+1; reconcile cash, shares and fees.",
+        "ar": "القاعدة عند t والتنفيذ الافتراضي عند t+1؛ تسوية النقد والوحدات والرسوم."
+      },
+      "aliases": [
+        "Strategy Backtesting",
+        "Run experiment",
+        "Performance comparison",
+        "Open Backtesting Lab"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "optimizer",
+      "group": "tool",
+      "en": "Operations Research Lab",
+      "ar": "مختبر بحوث العمليات",
+      "meaning": {
+        "en": "Constrained integer buy/sell and allocation optimization.",
+        "ar": "تحسين كميات الشراء والبيع والتخصيص بأعداد صحيحة وقيود."
+      },
+      "use": {
+        "en": "Set horizon, capital and risk controls; run synthetic experiment.",
+        "ar": "حدد الأفق ورأس المال وضوابط المخاطر وشغّل تجربة اصطناعية."
+      },
+      "calculation": {
+        "en": "Maximize expected terminal return − λ×CVaR, subject to cash, holdings, turnover and caps.",
+        "ar": "تعظيم العائد النهائي المتوقع − λ×CVaR تحت قيود النقد والحيازات والدوران والحدود."
+      },
+      "aliases": [
+        "Integer Portfolio Optimization",
+        "Optimize and replay",
+        "Open Optimization Lab",
+        "Decision model",
+        "Solver decisions"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "historical",
+      "group": "tool",
+      "en": "Historical Market Replay",
+      "ar": "إعادة تشغيل السوق التاريخي",
+      "meaning": {
+        "en": "Chronological observed ADIB/EGX30 candidate and extended synthetic paths.",
+        "ar": "عينة مرصودة مرشحة لـ ADIB وEGX30 ومسارات اصطناعية ممتدة."
+      },
+      "use": {
+        "en": "Choose date and inspect only available information; acknowledge candidate experiment.",
+        "ar": "اختر التاريخ وافحص المعلومات المتاحة فقط وأقر بطبيعة التجربة المرشحة."
+      },
+      "calculation": {
+        "en": "Matched dates, prior-only bootstrap and next observed open; verification gate closed.",
+        "ar": "تواريخ متطابقة ومعاينة من الماضي فقط والافتتاح التالي المرصود؛ بوابة التحقق مغلقة."
+      },
+      "aliases": [
+        "Historical Replay Lab",
+        "Run candidate experiment",
+        "Open Historical Replay Lab"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "integration",
+      "group": "tool",
+      "en": "Integration audit",
+      "ar": "تدقيق التكامل",
+      "meaning": {
+        "en": "Implementation inventory and evidence status.",
+        "ar": "قائمة التنفيذ وحالة الأدلة."
+      },
+      "use": {
+        "en": "Review remaining gaps before acceptance.",
+        "ar": "راجع الفجوات قبل القبول."
+      },
+      "calculation": {
+        "en": "Counts by status; not formal acceptance of locked capability definitions.",
+        "ar": "عد العناصر حسب الحالة؛ ليس قبولاً رسمياً للتعريفات المقفلة."
+      },
+      "aliases": [
+        "Integration status",
+        "View audit",
+        "Phase 19 · Implementation audit"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "milp",
+      "group": "tool",
+      "en": "MILP",
+      "ar": "البرمجة الخطية المختلطة الصحيحة",
+      "meaning": {
+        "en": "Optimization with integer quantities and continuous risk variables.",
+        "ar": "تحسين بكميات صحيحة ومتغيرات مخاطر مستمرة."
+      },
+      "use": {
+        "en": "Use constrained OR experiments; no trade on solver failure.",
+        "ar": "استخدم تجارب بحوث العمليات المقيدة؛ لا صفقة عند فشل الحل."
+      },
+      "calculation": {
+        "en": "Minimize linear loss and CVaR with binary direction and integer buys/sells. Android fallback solves LP relaxations and branches on fractional variables.",
+        "ar": "تقليل الخسارة الخطية وCVaR مع اتجاه ثنائي وكميات صحيحة؛ بديل أندرويد يحل الاسترخاء الخطي ويتفرع عند القيم الكسرية."
+      },
+      "aliases": [],
+      "status": "reference"
+    },
+    {
+      "id": "bootstrap",
+      "group": "tool",
+      "en": "Block bootstrap",
+      "ar": "إعادة المعاينة بالكتل",
+      "meaning": {
+        "en": "Samples contiguous past returns to create modeled paths.",
+        "ar": "معاينة عوائد سابقة متجاورة لتوليد مسارات نموذجية."
+      },
+      "use": {
+        "en": "Use only revealed history or independent development scenarios.",
+        "ar": "استخدم التاريخ المكشوف فقط أو سيناريوهات تطوير مستقلة."
+      },
+      "calculation": {
+        "en": "Sample synchronized blocks with replacement and compound returns.",
+        "ar": "معاينة كتل متزامنة مع الإرجاع وتركيب العوائد."
+      },
+      "aliases": [],
+      "status": "reference"
+    },
+    {
+      "id": "market_regime",
+      "group": "tool",
+      "en": "Market regime",
+      "ar": "حالة السوق",
+      "meaning": {
+        "en": "Descriptive classification of price behavior.",
+        "ar": "تصنيف وصفي لسلوك السعر."
+      },
+      "use": {
+        "en": "Inspect trend or stress; thresholds provisional.",
+        "ar": "افحص الاتجاه أو الضغط؛ الحدود مؤقتة."
+      },
+      "calculation": {
+        "en": "Phase 10.9 trailing 3 intervals: stress if drawdown ≥10%; up/down if cumulative return ≥5% / ≤−5%, otherwise range.",
+        "ar": "آخر 3 فترات: ضغط عند تراجع 10% فأكثر؛ صعود/هبوط عند عائد 5% فأكثر أو −5% فأقل وإلا نطاق."
+      },
+      "aliases": [],
+      "status": "reference"
+    },
+    {
+      "id": "source_gate",
+      "group": "tool",
+      "en": "Historical verification gate",
+      "ar": "بوابة التحقق التاريخي",
+      "meaning": {
+        "en": "Separates candidate observations from verified history.",
+        "ar": "تفصل المشاهدات المرشحة عن التاريخ المتحقق."
+      },
+      "use": {
+        "en": "Inspect rights, availability, adjustments and source discrepancies.",
+        "ar": "افحص الحقوق والإتاحة والتعديلات وفروق المصادر."
+      },
+      "calculation": {
+        "en": "Strict eligibility requires independently verified provenance and completeness; currently blocked.",
+        "ar": "الأهلية الصارمة تتطلب تحقق المصدر والاكتمال؛ مغلقة حالياً."
+      },
+      "aliases": [
+        "Verification gate",
+        "Check actual historical eligibility"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "fund_fee",
+      "group": "tool",
+      "en": "Fund fee model",
+      "ar": "نموذج رسوم الصندوق",
+      "meaning": {
+        "en": "Estimates net hypothetical fund redemption value.",
+        "ar": "يقدر قيمة الاسترداد الصافية الافتراضية."
+      },
+      "use": {
+        "en": "Set entry fee, gross return and exit fee.",
+        "ar": "حدد رسوم الدخول والعائد الإجمالي والخروج."
+      },
+      "calculation": {
+        "en": "Capital × (1−entry fee) × (1+gross return) × (1−exit fee).",
+        "ar": "رأس المال × (1−رسوم الدخول) × (1+العائد الإجمالي) × (1−رسوم الخروج)."
+      },
+      "aliases": [
+        "Fund fees and net return"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "fx_sensitivity",
+      "group": "tool",
+      "en": "Economic sensitivity",
+      "ar": "الحساسية الاقتصادية",
+      "meaning": {
+        "en": "Static cost and interest-rate stress model.",
+        "ar": "نموذج ضغط ثابت للتكاليف والفائدة."
+      },
+      "use": {
+        "en": "Vary imported-cost share, FX and debt rates.",
+        "ar": "غيّر حصة التكلفة المستوردة والصرف وفائدة الدين."
+      },
+      "calculation": {
+        "en": "Incremental cost = operating costs×import share×FX shock + variable debt×rate shock.",
+        "ar": "التكلفة الإضافية = التشغيل × حصة الاستيراد × صدمة الصرف + الدين المتغير × صدمة الفائدة."
+      },
+      "aliases": [
+        "FX and interest-rate sensitivity"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "multiple",
+      "group": "tool",
+      "en": "Valuation multiples",
+      "ar": "مضاعفات التقييم",
+      "meaning": {
+        "en": "Hypothetical per-share valuation using earnings or book value.",
+        "ar": "تقييم افتراضي للسهم باستخدام الربح أو القيمة الدفترية."
+      },
+      "use": {
+        "en": "Enter explicit multiple and per-share metric.",
+        "ar": "أدخل المضاعف ومؤشر السهم صراحة."
+      },
+      "calculation": {
+        "en": "Implied price = per-share input × assumed multiple.",
+        "ar": "السعر الضمني = مدخل السهم × المضاعف المفترض."
+      },
+      "aliases": [
+        "Per-share multiple (P/E or P/B assumption)"
+      ],
+      "status": "reference"
+    },
+    {
+      "id": "liquidity_cap",
+      "group": "tool",
+      "en": "Liquidity cap",
+      "ar": "حد السيولة",
+      "meaning": {
+        "en": "Limits virtual order size using prior volume proxy.",
+        "ar": "يحد حجم الأمر الافتراضي باستخدام حجم سابق كبديل."
+      },
+      "use": {
+        "en": "Review prior daily volume and assumption.",
+        "ar": "راجع حجم التداول السابق والافتراض."
+      },
+      "calculation": {
+        "en": "Candidate historical experiment uses 1% of preceding reported volume, not executable capacity.",
+        "ar": "التجربة التاريخية المرشحة تستخدم 1% من الحجم السابق المعلن؛ ليست سعة تنفيذية فعلية."
+      },
+      "aliases": [],
+      "status": "reference"
+    }
+  ],
+  "translations": {
+    "Sign out": "تسجيل الخروج",
+    "Local investor account": "حساب المستثمر المحلي",
+    "Account alias": "اسم الحساب",
+    "Password (12+ characters)": "كلمة المرور (12 حرفاً فأكثر)",
+    "Sign in": "تسجيل الدخول",
+    "Create account": "إنشاء حساب",
+    "Assessment, practice and progress": "التقييم والتدريب والتقدم",
+    "Start assessment": "ابدأ التقييم",
+    "New replay": "محاكاة جديدة",
+    "Fundamental analysis": "التحليل الأساسي",
+    "Open Fundamental Lab": "فتح مختبر التحليل الأساسي",
+    "Technical analysis": "التحليل الفني",
+    "Open Technical Lab": "فتح مختبر التحليل الفني",
+    "Market Intelligence Lab": "مختبر ذكاء السوق",
+    "Open Intelligence Lab": "فتح مختبر ذكاء السوق",
+    "Strategy Backtesting Lab": "مختبر اختبار الاستراتيجيات",
+    "Open Backtesting Lab": "فتح مختبر الاختبار",
+    "Operations Research Lab": "مختبر بحوث العمليات",
+    "Open Optimization Lab": "فتح مختبر التحسين",
+    "Historical Market Replay": "إعادة تشغيل السوق التاريخي",
+    "Open Historical Replay Lab": "فتح مختبر الإعادة التاريخية",
+    "Trading Academy": "أكاديمية التداول",
+    "Open Academy": "فتح الأكاديمية",
+    "Investor evidence": "أدلة المستثمر",
+    "Review evidence": "مراجعة الأدلة",
+    "Integration status": "حالة التكامل",
+    "View audit": "عرض التدقيق",
+    "Assessment history": "تاريخ التقييم",
+    "Created": "تاريخ الإنشاء",
+    "Foundation": "الأساس",
+    "Modeled allocation": "التخصيص النموذجي",
+    "Status": "الحالة",
+    "Details": "التفاصيل",
+    "Saved market replays": "المحاكاة المحفوظة",
+    "Scenario": "السيناريو",
+    "Step": "الخطوة",
+    "Virtual equity": "القيمة الافتراضية",
+    "Continue": "متابعة",
+    "Activity journal": "سجل النشاط",
+    "Privacy and data controls": "الخصوصية والتحكم في البيانات",
+    "Export my data": "تصدير بياناتي",
+    "Delete account": "حذف الحساب",
+    "Investor workspace": "مساحة المستثمر",
+    "← Investor workspace": "← مساحة المستثمر",
+    "Investor dashboard": "لوحة المستثمر",
+    "← Investor dashboard": "← لوحة المستثمر",
+    "Dashboard": "لوحة التحكم",
+    "Live-input assessment": "تقييم المدخلات المباشرة",
+    "01 · Initial financial intake": "01 · البيانات المالية الأولية",
+    "Start adaptive assessment →": "بدء التقييم التكيفي ←",
+    "Unsure — stop assessment": "غير متأكد — إيقاف التقييم",
+    "Assessment paused": "تم إيقاف التقييم مؤقتاً",
+    "Resume": "استئناف",
+    "Initial candidate": "مرشح أولي",
+    "Unresolved candidate": "مرشح غير محسوم",
+    "04 · Structured profile": "04 · ملف المستثمر المنظم",
+    "Load remaining fictional example fields": "تحميل بقية حقول المثال الافتراضي",
+    "Financial goals": "الأهداف المالية",
+    "Calculate conditional plan": "حساب الخطة المشروطة",
+    "Restart": "إعادة البدء",
+    "Goal ID": "معرف الهدف",
+    "Inflation-adjusted target": "هدف معدل بالتضخم",
+    "Calculated conditional plan": "الخطة المشروطة المحسوبة",
+    "Export calculated JSON": "تصدير نتائج JSON",
+    "New assessment": "تقييم جديد",
+    "05 · Explicit clarification": "05 · توضيح صريح",
+    "Confirm and calculate": "تأكيد وحساب",
+    "Reject / restart": "رفض / إعادة البدء",
+    "Plan not released": "لم يتم إصدار الخطة",
+    "Strategy Backtesting": "اختبار الاستراتيجيات",
+    "Experiment setup": "إعداد التجربة",
+    "Equity proxy": "نموذج السهم",
+    "Strategy": "الاستراتيجية",
+    "Initial virtual capital (EGP)": "رأس المال الافتراضي الأولي (جنيه)",
+    "Entry allocation (%)": "تخصيص الدخول (%)",
+    "Position stop (%) · 0 disables": "وقف خسارة المركز (%) · صفر للتعطيل",
+    "Portfolio drawdown lock (%) · 0 disables": "حد تراجع المحفظة (%) · صفر للتعطيل",
+    "Transaction fee (bps)": "رسوم المعاملة (نقطة أساس)",
+    "Normal half-spread (bps)": "نصف الفارق الطبيعي (نقطة أساس)",
+    "Stress half-spread (bps)": "نصف الفارق وقت الضغط (نقطة أساس)",
+    "Extra slippage (bps)": "انزلاق إضافي (نقطة أساس)",
+    "Run experiment": "تشغيل التجربة",
+    "Check actual historical eligibility": "التحقق من أهلية التاريخ الفعلي",
+    "Performance comparison": "مقارنة الأداء",
+    "Order journal": "سجل الأوامر",
+    "Submitted": "تم الإرسال",
+    "Executed": "تم التنفيذ",
+    "Side": "الاتجاه",
+    "Units": "الوحدات",
+    "Price": "السعر",
+    "Fee": "الرسوم",
+    "Reason": "السبب",
+    "Decision timeline": "التسلسل الزمني للقرارات",
+    "Action": "الإجراء",
+    "Equity": "قيمة المحفظة",
+    "Locked strategy coverage": "تغطية الاستراتيجيات المقفلة",
+    "Rule / gap": "القاعدة / الفجوة",
+    "Search instrument": "بحث عن أصل",
+    "Instrument": "الأصل",
+    "Historical cutoff (optional)": "تاريخ القطع التاريخي (اختياري)",
+    "Analyze": "تحليل",
+    "Select instrument": "اختر الأصل",
+    "Calculated indicators": "المؤشرات المحسوبة",
+    "Comparable peers": "النظراء المتوافقون",
+    "Financial statement evidence": "أدلة القوائم المالية",
+    "Fund characteristics and NAV samples": "خصائص الصندوق وعينات صافي القيمة",
+    "Cash dividend events": "أحداث التوزيعات النقدية",
+    "Scenario laboratory": "مختبر السيناريوهات",
+    "Model": "النموذج",
+    "Calculate scenario": "حساب السيناريو",
+    "Search catalogue": "بحث في الدليل",
+    "Data mode": "وضع البيانات",
+    "Observed samples (retrospective)": "عينات مرصودة (بأثر رجعي)",
+    "My replay — current step": "محاكاتي — الخطوة الحالية",
+    "D5 intraday exercise": "تمرين لحظي اصطناعي D5",
+    "Observation cutoff (optional)": "تاريخ القطع (اختياري)",
+    "Saved replay": "المحاكاة المحفوظة",
+    "Intraday anchor": "مرجع الجلسة اللحظية",
+    "Exercise step (0–23)": "خطوة التمرين (0–23)",
+    "Refresh": "تحديث",
+    "Market context & evidence": "سياق السوق والأدلة",
+    "Mode": "الوضع",
+    "Historical evidence": "أدلة تاريخية",
+    "Saved synthetic replay": "محاكاة اصطناعية محفوظة",
+    "Available by": "متاح حتى",
+    "Starting virtual EGP": "رأس المال الافتراضي بالجنيه",
+    "Evaluation exposure": "كشف بيانات التقييم",
+    "Allow validation/test scenarios": "السماح بسيناريوهات التحقق والاختبار",
+    "Start replay": "بدء المحاكاة",
+    "Advance one step →": "تقدم خطوة واحدة ←",
+    "Export session JSON": "تصدير الجلسة JSON",
+    "Investment universe": "عالم الاستثمارات",
+    "Queue buy": "إرسال شراء معلق",
+    "Queue sell": "إرسال بيع معلق",
+    "Cancel pending": "إلغاء المعلق",
+    "Virtual portfolio": "محفظة افتراضية",
+    "Mark": "سعر التقييم",
+    "Value": "القيمة",
+    "Execution journal": "سجل التنفيذ",
+    "Order": "الأمر",
+    "Live simulated tape": "شريط السوق المحاكى",
+    "Historical context": "السياق التاريخي",
+    "Economic context": "السياق الاقتصادي",
+    "Leverage stress lab": "مختبر ضغط الرافعة المالية",
+    "Capital": "رأس المال",
+    "Exposure multiple": "مضاعف التعرض",
+    "Asset shock %": "صدمة الأصل %",
+    "Calculate": "حساب",
+    "Historical evidence browser — read only": "متصفح الأدلة التاريخية — للقراءة فقط",
+    "As-of date": "التاريخ المرجعي",
+    "Load available reports": "تحميل التقارير المتاحة",
+    "Selected instrument: retrospective source samples": "الأصل المحدد: عينات مصدر بأثر رجعي",
+    "Load selected instrument samples": "تحميل عينات الأصل المحدد",
+    "Environment": "البيئة",
+    "Observed ADIB + EGX30 (D1 candidate)": "ADIB وEGX30 مرصودان (D1 مرشح)",
+    "Extended synthetic paths (D5)": "مسارات اصطناعية ممتدة (D5)",
+    "Intervals": "الفترات",
+    "Previous": "السابق",
+    "Next observation": "المشاهدة التالية",
+    "Reset": "إعادة ضبط",
+    "Observed price history · 51 shared dates": "تاريخ السعر المرصود · 51 تاريخاً مشتركاً",
+    "Information available by this date": "المعلومات المتاحة حتى هذا التاريخ",
+    "Company and global events": "أحداث الشركات والعالم",
+    "Latest economic vintages": "أحدث إصدارات البيانات الاقتصادية",
+    "Verification gate": "بوابة التحقق",
+    "ADIB 20-interval candidate paper experiment": "تجربة ورقية مرشحة لـ ADIB خلال 20 فترة",
+    "Run candidate experiment": "تشغيل التجربة المرشحة",
+    "Extended D5 training environment": "بيئة تدريب اصطناعية ممتدة D5",
+    "Integer Portfolio Optimization": "تحسين المحفظة بأعداد صحيحة",
+    "Decision model": "نموذج القرار",
+    "Instrument 1": "الأصل 1",
+    "Instrument 2 (optional)": "الأصل 2 (اختياري)",
+    "Instrument 3 (optional)": "الأصل 3 (اختياري)",
+    "Starting units 1": "الوحدات الابتدائية 1",
+    "Starting units 2": "الوحدات الابتدائية 2",
+    "Starting units 3": "الوحدات الابتدائية 3",
+    "Initial available cash (virtual EGP)": "النقد المتاح الأولي (جنيه افتراضي)",
+    "Forecast horizon (1–20 steps)": "أفق التوقع (1–20 خطوة)",
+    "Downside penalty λ": "عقوبة المخاطر السلبية λ",
+    "Cash reserve %": "الاحتياطي النقدي %",
+    "Single asset cap %": "حد الأصل الواحد %",
+    "Total exposure cap %": "حد التعرض الكلي %",
+    "Per-step turnover cap %": "حد الدوران لكل خطوة %",
+    "CVaR confidence (0.50–0.99)": "مستوى ثقة CVaR (0.50–0.99)",
+    "Commission (bps)": "العمولة (نقطة أساس)",
+    "Half spread + slippage (bps)": "نصف الفارق + الانزلاق (نقطة أساس)",
+    "Optimize and replay": "تحسين ومحاكاة",
+    "Performance": "الأداء",
+    "Solver decisions": "قرارات المحلّل",
+    "Buy units": "وحدات الشراء",
+    "Sell units": "وحدات البيع",
+    "Expected return %": "العائد المتوقع %",
+    "CVaR loss %": "خسارة CVaR %",
+    "Equity EGP": "قيمة المحفظة بالجنيه",
+    "Next-step execution": "تنفيذ الخطوة التالية",
+    "Buy": "شراء",
+    "Sell": "بيع",
+    "Cost EGP": "التكلفة بالجنيه",
+    "Learning progress": "تقدم التعلم",
+    "Curriculum by strategy": "المنهج حسب الاستراتيجية",
+    "Example": "مثال",
+    "Practice": "تدريب",
+    "Investor evidence journal": "سجل أدلة المستثمر",
+    "Replay activity": "نشاط المحاكاة",
+    "Buys": "عمليات الشراء",
+    "Sells": "عمليات البيع",
+    "Rejected": "المرفوضة",
+    "Holdings": "الحيازات",
+    "Return %": "العائد %",
+    "Drawdown %": "التراجع %",
+    "Phase 19 · Implementation audit": "المرحلة 19 · تدقيق التنفيذ",
+    "Filter status": "تصفية الحالة",
+    "All": "الكل",
+    "implemented": "منفذ",
+    "partial": "جزئي",
+    "blocked": "متوقف",
+    "deferred_v2": "مؤجل إلى V2",
+    "Work item": "بند العمل",
+    "Implementation": "التنفيذ",
+    "Evidence": "الأدلة",
+    "Remaining gap": "الفجوة المتبقية",
+    "Augmented Trading": "التداول المعزز",
+    "Investor Intelligence": "ذكاء المستثمر",
+    "Monthly income": "الدخل الشهري",
+    "monthly income": "الدخل الشهري",
+    "monthly expenses": "المصروفات الشهرية",
+    "monthly debt payment": "القسط الشهري للدين",
+    "debt principal": "أصل الدين",
+    "debt annual rate": "معدل الفائدة السنوية للدين",
+    "investment savings": "مدخرات الاستثمار",
+    "earmarked savings": "مدخرات مخصصة",
+    "emergency reserve separate": "احتياطي طوارئ منفصل",
+    "invested from savings": "المستثمر من المدخرات",
+    "primary goal weight": "وزن الهدف الأساسي",
+    "debt overdue": "دين متأخر",
+    "Yes": "نعم",
+    "No": "لا",
+    "Cancel": "إلغاء",
+    "Close": "إغلاق",
+    "Search": "بحث",
+    "No data": "لا توجد بيانات",
+    "Insufficient data": "بيانات غير كافية",
+    "Historical candidate": "تاريخ مرشح",
+    "D5 synthetic": "D5 اصطناعي",
+    "hold": "احتفاظ",
+    "filled": "تم التنفيذ",
+    "rejected": "مرفوض",
+    "optimal": "حل أمثل",
+    "infeasible": "غير قابل للتحقيق",
+    "not_optimal": "لم يثبت الحل الأمثل",
+    "not_implemented": "غير منفذ",
+    "synthetic_proxy": "نموذج اصطناعي",
+    "Source": "المصدر",
+    "Assessment versions": "إصدارات التقييم",
+    "Virtual market replays": "محاكاة السوق الافتراضية",
+    "Authorized live allocation": "التخصيص الفعلي المصرح به",
+    "No live trading integration": "لا يوجد ربط تداول فعلي",
+    "YOUR LOCAL INVESTOR WORKSPACE": "مساحة المستثمر المحلية",
+    "Use an alias, not your real name. No external identity provider or brokerage connection.": "استخدم اسماً مستعاراً وليس اسمك الحقيقي. لا يوجد مزود هوية خارجي أو اتصال بالوسيط.",
+    "Profile contents are encrypted on disk. Forgotten passwords cannot be recovered. This is a local engineering prototype; test with fictional data until security review.": "محتويات الملف مشفرة على الجهاز. لا يمكن استعادة كلمات المرور المنسية. هذا نموذج هندسي محلي؛ اختبر ببيانات افتراضية حتى مراجعة الأمان.",
+    "Save your assessment and market replay decisions under a single private account. All investment allocations are conditional and all orders are virtual.": "احفظ تقييمك وقرارات المحاكاة في حساب خاص واحد. جميع التخصيصات مشروطة وكل الأوامر افتراضية.",
+    "Review source-linked financial statements, fund characteristics and hypothetical valuation scenarios.": "راجع القوائم المالية المرتبطة بالمصادر وخصائص الصناديق وسيناريوهات التقييم الافتراضية.",
+    "Explore price indicators, candlesticks and chronological replay signals.": "استكشف المؤشرات السعرية والشموع والإشارات الزمنية في المحاكاة.",
+    "Explore dated news, macro releases, sector breadth and evidence conflicts.": "استكشف الأخبار المؤرخة والتقارير الاقتصادية واتساع القطاعات وتعارض الأدلة.",
+    "Run synthetic strategy experiments with next-step execution and cost controls.": "شغّل تجارب استراتيجيات اصطناعية مع تنفيذ الخطوة التالية وضبط التكاليف.",
+    "Scenario-based integer allocation, costs, cash limits and downside-risk optimization (D5).": "تخصيص بالأعداد الصحيحة وفق السيناريوهات والتكاليف وحدود النقد وتحسين المخاطر السلبية (D5).",
+    "Chronological observed ADIB and EGX30 sample, evidence gates and extended synthetic sessions.": "عينة ADIB وEGX30 المرصودة زمنياً وبوابات التحقق والجلسات الاصطناعية الممتدة.",
+    "31 lessons with server-graded quizzes and encrypted saved progress.": "31 درساً باختبارات تُصحح محلياً وتقدم محفوظ مشفر.",
+    "Review saved learning and simulated trading activity. No automated personality inference.": "راجع التعلم المحفوظ ونشاط التداول المحاكى. لا استنتاج تلقائي للشخصية.",
+    "No completed assessments.": "لا توجد تقييمات مكتملة.",
+    "No saved virtual replays.": "لا توجد محاكاة افتراضية محفوظة.",
+    "No activity yet.": "لا يوجد نشاط بعد.",
+    "Resume assessment": "استئناف التقييم",
+    "View": "عرض",
+    "Review": "مراجعة",
+    "Portfolio": "المحفظة",
+    "Investment": "الاستثمار",
+    "Trading": "التداول",
+    "Hybrid": "مختلط",
+    "Financial readiness": "الجاهزية المالية",
+    "Cash flow and liquidity": "التدفق النقدي والسيولة",
+    "Financial goals and inflation": "الأهداف المالية والتضخم",
+    "Risk capacity and loss budgets": "القدرة على تحمل المخاطر وميزانية الخسائر",
+    "Returns, costs and compounding": "العوائد والتكاليف والتركيب",
+    "Market mechanics and orders": "آليات السوق والأوامر",
+    "Evidence and independent judgment": "الأدلة والحكم المستقل",
+    "Behavior, discipline and stress": "السلوك والانضباط والضغط",
+    "Diversification and concentration": "التنويع والتركيز",
+    "Index funds and tracking": "صناديق المؤشرات والتتبع",
+    "Managed and balanced funds": "الصناديق المدارة والمتوازنة",
+    "Asset allocation and rebalancing": "تخصيص الأصول وإعادة التوازن",
+    "Financial statements": "القوائم المالية",
+    "Valuation and margin of safety": "التقييم وهامش الأمان",
+    "Growth and GARP": "النمو بسعر معقول",
+    "Quality and defensive analysis": "الجودة والتحليل الدفاعي",
+    "Dividend sustainability and growth": "استدامة التوزيعات ونموها",
+    "Long-horizon thesis and review": "فرضية الاستثمار طويل الأجل والمراجعة",
+    "Charts and market regimes": "الرسوم وحالات السوق",
+    "Position and swing horizons": "آفاق تداول المراكز والتداول المتأرجح",
+    "Position sizing and execution risk": "حجم المركز ومخاطر التنفيذ",
+    "Trend following and momentum": "اتباع الاتجاه والزخم",
+    "Breakout and pullback": "الاختراق والتصحيح",
+    "Range and mean reversion": "النطاق والارتداد إلى المتوسط",
+    "Reversal and relative strength": "الانعكاس والقوة النسبية",
+    "Event-driven decisions": "القرارات القائمة على الأحداث",
+    "Intraday and scalping constraints": "قيود التداول اليومي والمضاربة السريعة",
+    "Backtesting and trade journal": "اختبار الاستراتيجيات وسجل التداول",
+    "Income planning and cash reserves": "تخطيط الدخل والاحتياطيات النقدية",
+    "Core-satellite and separate mandates": "المحفظة الأساسية والفرعية والمهام المنفصلة",
+    "Market adaptive mandates": "مهام التكيف مع السوق",
+    "Ending equity": "قيمة المحفظة النهائية",
+    "Strategy return": "عائد الاستراتيجية",
+    "Optimizer return": "عائد المحسّن",
+    "Passive return": "العائد السلبي",
+    "Buy & hold return": "عائد الشراء والاحتفاظ",
+    "EGX30 gross factor": "عائد EGX30 الإجمالي",
+    "Costs": "التكاليف",
+    "Max drawdown": "أقصى تراجع",
+    "D5 synthetic experiments only. No verified historical backtests, live orders or strategy recommendations. Evaluation scenarios require explicit exposure consent.": "تجارب اصطناعية D5 فقط. لا توجد اختبارات تاريخية متحققة أو أوامر فعلية أو توصيات. تتطلب سيناريوهات التقييم موافقة صريحة على كشف النتائج.",
+    "Explicitly expose held-out evaluation outcomes": "الموافقة على كشف نتائج التقييم المعزولة",
+    "Explicitly expose evaluation scenario outcomes": "الموافقة على كشف نتائج سيناريو التقييم",
+    "I understand this reveals the evaluation interval and is not verified historical performance.": "أفهم أن ذلك يكشف فترة التقييم وليس أداءً تاريخياً متحققاً.",
+    "Account created. Sign in using your password.": "تم إنشاء الحساب. سجّل الدخول بكلمة المرور.",
+    "Invalid credentials": "بيانات دخول غير صحيحة",
+    "Sign in required": "يلزم تسجيل الدخول",
+    "Financial Readiness": "الجاهزية المالية",
+    "ST-00": "ST-00",
+    "Capital Preservation": "حماية رأس المال",
+    "ST-01": "ST-01",
+    "Liquidity Management": "إدارة السيولة",
+    "ST-02": "ST-02",
+    "Conservative Income": "دخل محافظ",
+    "ST-03": "ST-03",
+    "Short-Term Savings": "ادخار قصير الأجل",
+    "ST-04": "ST-04",
+    "Index Investing": "الاستثمار في المؤشرات",
+    "ST-05": "ST-05",
+    "Diversified Fund Investing": "الاستثمار في صناديق متنوعة",
+    "ST-06": "ST-06",
+    "Balanced Fund Investing": "الاستثمار في صناديق متوازنة",
+    "ST-07": "ST-07",
+    "Asset Allocation Investing": "استثمار تخصيص الأصول",
+    "ST-08": "ST-08",
+    "Buy & Hold": "الشراء والاحتفاظ",
+    "ST-09": "ST-09",
+    "Value Investing": "استثمار القيمة",
+    "ST-10": "ST-10",
+    "Growth Investing": "استثمار النمو",
+    "ST-11": "ST-11",
+    "Quality Investing": "استثمار الجودة",
+    "ST-12": "ST-12",
+    "Stable Dividend Income": "دخل توزيعات مستقر",
+    "ST-13": "ST-13",
+    "High Dividend Yield": "عائد توزيعات مرتفع",
+    "ST-14": "ST-14",
+    "Dividend Growth": "نمو التوزيعات",
+    "ST-15": "ST-15",
+    "GARP": "النمو بسعر معقول (GARP)",
+    "ST-16": "ST-16",
+    "Defensive Investing": "الاستثمار الدفاعي",
+    "ST-17": "ST-17",
+    "Position Trading": "تداول المراكز",
+    "ST-18": "ST-18",
+    "Swing Trading": "التداول المتأرجح",
+    "ST-19": "ST-19",
+    "Trend Following": "اتباع الاتجاه",
+    "ST-20": "ST-20",
+    "Momentum Trading": "تداول الزخم",
+    "ST-21": "ST-21",
+    "Breakout Trading": "تداول الاختراق",
+    "ST-22": "ST-22",
+    "Pullback Trading": "تداول التصحيح",
+    "ST-23": "ST-23",
+    "Range Trading": "تداول النطاق",
+    "ST-24": "ST-24",
+    "Mean Reversion": "الارتداد إلى المتوسط",
+    "ST-25": "ST-25",
+    "Reversal Trading": "تداول الانعكاس",
+    "ST-26": "ST-26",
+    "Event-Driven Trading": "التداول القائم على الأحداث",
+    "ST-27": "ST-27",
+    "Day Trading": "التداول اليومي",
+    "ST-28": "ST-28",
+    "Scalping": "المضاربة السريعة",
+    "ST-29": "ST-29",
+    "Relative Strength": "القوة النسبية",
+    "ST-30": "ST-30",
+    "Hybrid Income": "الدخل المختلط",
+    "ST-31": "ST-31",
+    "Core-Satellite": "المحفظة الأساسية والفرعية",
+    "ST-32": "ST-32",
+    "Investment & Trading": "الاستثمار والتداول",
+    "ST-33": "ST-33",
+    "Market Adaptive": "التكيف مع السوق",
+    "ST-34": "ST-34",
+    "Return": "العائد",
+    "return_pct": "العائد",
+    "Interval return": "عائد الفترة",
+    "interval_return": "عائد الفترة",
+    "Maximum drawdown": "أقصى تراجع",
+    "max_drawdown_pct": "أقصى تراجع",
+    "Drawdown": "التراجع",
+    "drawdown": "التراجع",
+    "Volatility": "التذبذب",
+    "volatility": "التذبذب",
+    "Sharpe ratio": "نسبة شارب",
+    "sharpe": "نسبة شارب",
+    "Sortino ratio": "نسبة سورتينو",
+    "sortino": "نسبة سورتينو",
+    "Calmar ratio": "نسبة كالمار",
+    "calmar": "نسبة كالمار",
+    "Alpha": "ألفا",
+    "alpha": "ألفا",
+    "Beta": "بيتا",
+    "beta": "بيتا",
+    "Correlation": "الارتباط",
+    "correlation": "الارتباط",
+    "Tracking error": "خطأ التتبع",
+    "tracking_error": "خطأ التتبع",
+    "Information ratio": "نسبة المعلومات",
+    "information_ratio": "نسبة المعلومات",
+    "CVaR loss": "الخسارة المتوقعة في الذيل",
+    "cvar": "الخسارة المتوقعة في الذيل",
+    "Value at risk": "القيمة المعرضة للمخاطر",
+    "var": "القيمة المعرضة للمخاطر",
+    "Expected return": "العائد المتوقع",
+    "expected_return_pct": "العائد المتوقع",
+    "equity": "قيمة المحفظة",
+    "Cash": "النقد",
+    "cash": "النقد",
+    "Exposure": "التعرض",
+    "exposure": "التعرض",
+    "Turnover": "دوران التداول",
+    "turnover": "دوران التداول",
+    "fee": "الرسوم",
+    "Bid–ask spread": "الفارق بين العرض والطلب",
+    "spread": "الفارق بين العرض والطلب",
+    "Slippage": "الانزلاق السعري",
+    "slippage": "الانزلاق السعري",
+    "NAV": "صافي قيمة الأصول",
+    "nav": "صافي قيمة الأصول",
+    "P/E": "مضاعف الربحية",
+    "pe": "مضاعف الربحية",
+    "P/B": "مضاعف القيمة الدفترية",
+    "pb": "مضاعف القيمة الدفترية",
+    "Discounted cash flow": "التدفقات النقدية المخصومة",
+    "dcf": "التدفقات النقدية المخصومة",
+    "WACC": "المتوسط المرجح لتكلفة رأس المال",
+    "wacc": "المتوسط المرجح لتكلفة رأس المال",
+    "Leverage": "الرافعة المالية",
+    "leverage": "الرافعة المالية",
+    "Market breadth": "اتساع السوق",
+    "market_breadth": "اتساع السوق",
+    "Real return": "العائد الحقيقي",
+    "real_return": "العائد الحقيقي",
+    "Currency-adjusted return": "العائد المعدل بالعملة",
+    "fx_return": "العائد المعدل بالعملة",
+    "Benchmark": "المؤشر المرجعي",
+    "benchmark": "المؤشر المرجعي",
+    "Position stop": "وقف خسارة المركز",
+    "position_stop": "وقف خسارة المركز",
+    "Equity / assets": "حقوق الملكية / الأصول",
+    "equity_assets": "حقوق الملكية / الأصول",
+    "Liabilities / assets": "الالتزامات / الأصول",
+    "liabilities_assets": "الالتزامات / الأصول",
+    "Profit / ending assets": "الربح / أصول نهاية الفترة",
+    "profit_ending_assets": "الربح / أصول نهاية الفترة",
+    "Profit / ending equity": "الربح / حقوق نهاية الفترة",
+    "profit_ending_equity": "الربح / حقوق نهاية الفترة",
+    "Balance sheet residual": "فرق الميزانية",
+    "balance_sheet_residual": "فرق الميزانية",
+    "Cash CAPEX / revenue": "الإنفاق الرأسمالي النقدي / الإيراد",
+    "cash_capex_revenue": "الإنفاق الرأسمالي النقدي / الإيراد",
+    "EBITDA margin": "هامش EBITDA",
+    "ebitda_margin": "هامش EBITDA",
+    "Reported FCFF margin": "هامش التدفق الحر المعلن",
+    "fcff_margin": "هامش التدفق الحر المعلن",
+    "Net profit margin": "هامش صافي الربح",
+    "net_profit_margin": "هامش صافي الربح",
+    "Effective tax rate": "معدل الضريبة الفعلي",
+    "effective_tax_rate": "معدل الضريبة الفعلي",
+    "Loans / deposits": "القروض / الودائع",
+    "loans_deposits": "القروض / الودائع",
+    "Assets (highlights) YoY growth": "نمو الأصول (الملخص) السنوي",
+    "assets_highlights_yoy": "نمو الأصول (الملخص) السنوي",
+    "Customer deposits YoY growth": "نمو ودائع العملاء السنوي",
+    "customer_deposits_yoy": "نمو ودائع العملاء السنوي",
+    "Deposits (highlights) YoY growth": "نمو الودائع (الملخص) السنوي",
+    "deposits_highlights_yoy": "نمو الودائع (الملخص) السنوي",
+    "Net operating income YoY growth": "نمو صافي الدخل التشغيلي السنوي",
+    "net_operating_income_yoy": "نمو صافي الدخل التشغيلي السنوي",
+    "Disclosed net profit YoY growth": "نمو صافي الربح المعلن السنوي",
+    "net_profit_as_disclosed_yoy": "نمو صافي الربح المعلن السنوي",
+    "Net profit (highlights) YoY growth": "نمو صافي الربح (الملخص) السنوي",
+    "net_profit_highlights_yoy": "نمو صافي الربح (الملخص) السنوي",
+    "Net profit YoY growth": "نمو صافي الربح السنوي",
+    "net_profit_yoy": "نمو صافي الربح السنوي",
+    "Total assets YoY growth": "نمو إجمالي الأصول السنوي",
+    "total_assets_yoy": "نمو إجمالي الأصول السنوي",
+    "Total equity YoY growth": "نمو إجمالي حقوق الملكية السنوي",
+    "total_equity_yoy": "نمو إجمالي حقوق الملكية السنوي",
+    "Revenue YoY growth": "نمو الإيراد السنوي",
+    "revenue_yoy": "نمو الإيراد السنوي",
+    "Reported FCFF YoY growth": "نمو التدفق النقدي الحر المعلن السنوي",
+    "fcff_reported_yoy": "نمو التدفق النقدي الحر المعلن السنوي",
+    "SMA 3": "المتوسط المتحرك البسيط 3",
+    "sma3": "المتوسط المتحرك البسيط 3",
+    "SMA 5": "المتوسط المتحرك البسيط 5",
+    "sma5": "المتوسط المتحرك البسيط 5",
+    "SMA 20": "المتوسط المتحرك البسيط 20",
+    "sma20": "المتوسط المتحرك البسيط 20",
+    "SMA 50": "المتوسط المتحرك البسيط 50",
+    "sma50": "المتوسط المتحرك البسيط 50",
+    "SMA 200": "المتوسط المتحرك البسيط 200",
+    "sma200": "المتوسط المتحرك البسيط 200",
+    "EMA 5": "المتوسط المتحرك الأسي 5",
+    "ema5": "المتوسط المتحرك الأسي 5",
+    "EMA 12": "المتوسط المتحرك الأسي 12",
+    "ema12": "المتوسط المتحرك الأسي 12",
+    "EMA 26": "المتوسط المتحرك الأسي 26",
+    "ema26": "المتوسط المتحرك الأسي 26",
+    "RSI 3": "مؤشر القوة النسبية 3",
+    "rsi3": "مؤشر القوة النسبية 3",
+    "RSI 14": "مؤشر القوة النسبية 14",
+    "rsi14": "مؤشر القوة النسبية 14",
+    "MACD": "ماكد",
+    "macd": "ماكد",
+    "MACD signal": "خط إشارة ماكد",
+    "macd_signal": "خط إشارة ماكد",
+    "MACD histogram": "مدرج ماكد",
+    "macd_hist": "مدرج ماكد",
+    "Bollinger upper": "حد بولينجر الأعلى",
+    "bb_upper": "حد بولينجر الأعلى",
+    "Bollinger lower": "حد بولينجر الأدنى",
+    "bb_lower": "حد بولينجر الأدنى",
+    "ATR 14": "متوسط المدى الحقيقي 14",
+    "atr14": "متوسط المدى الحقيقي 14",
+    "Stochastic %K": "مؤشر ستوكاستيك %K",
+    "stoch14": "مؤشر ستوكاستيك %K",
+    "OBV": "حجم التداول التراكمي الاتجاهي",
+    "obv": "حجم التداول التراكمي الاتجاهي",
+    "VWAP": "متوسط السعر المرجح بالحجم",
+    "vwap": "متوسط السعر المرجح بالحجم",
+    "Relative volume": "الحجم النسبي",
+    "volume_ratio5": "الحجم النسبي",
+    "Support": "الدعم",
+    "support5": "الدعم",
+    "Resistance": "المقاومة",
+    "resistance5": "المقاومة",
+    "Engulfing pattern": "نمط الابتلاع",
+    "engulfing": "نمط الابتلاع",
+    "Doji": "دوجي",
+    "doji": "دوجي",
+    "Investor assessment": "تقييم المستثمر",
+    "assessment": "تقييم المستثمر",
+    "Conditional plan": "الخطة المشروطة",
+    "plan": "الخطة المشروطة",
+    "academy": "أكاديمية التداول",
+    "progress": "سجل أدلة المستثمر",
+    "Augmented Market World": "عالم السوق المعزز",
+    "market": "عالم السوق المعزز",
+    "fundamental": "التحليل الأساسي",
+    "technical": "التحليل الفني",
+    "intelligence": "مختبر ذكاء السوق",
+    "backtest": "مختبر اختبار الاستراتيجيات",
+    "optimizer": "مختبر بحوث العمليات",
+    "historical": "إعادة تشغيل السوق التاريخي",
+    "Integration audit": "تدقيق التكامل",
+    "integration": "تدقيق التكامل",
+    "MILP": "البرمجة الخطية المختلطة الصحيحة",
+    "milp": "البرمجة الخطية المختلطة الصحيحة",
+    "Block bootstrap": "إعادة المعاينة بالكتل",
+    "bootstrap": "إعادة المعاينة بالكتل",
+    "Market regime": "حالة السوق",
+    "market_regime": "حالة السوق",
+    "Historical verification gate": "بوابة التحقق التاريخي",
+    "source_gate": "بوابة التحقق التاريخي",
+    "Fund fee model": "نموذج رسوم الصندوق",
+    "fund_fee": "نموذج رسوم الصندوق",
+    "Economic sensitivity": "الحساسية الاقتصادية",
+    "fx_sensitivity": "الحساسية الاقتصادية",
+    "Valuation multiples": "مضاعفات التقييم",
+    "multiple": "مضاعفات التقييم",
+    "Liquidity cap": "حد السيولة",
+    "liquidity_cap": "حد السيولة",
+    "return pct": "العائد",
+    "interval return": "عائد الفترة",
+    "max drawdown pct": "أقصى تراجع",
+    "tracking error": "خطأ التتبع",
+    "information ratio": "نسبة المعلومات",
+    "expected return pct": "العائد المتوقع",
+    "market breadth": "اتساع السوق",
+    "real return": "العائد الحقيقي",
+    "fx return": "العائد المعدل بالعملة",
+    "position stop": "وقف خسارة المركز",
+    "equity assets": "حقوق الملكية / الأصول",
+    "liabilities assets": "الالتزامات / الأصول",
+    "profit ending assets": "الربح / أصول نهاية الفترة",
+    "profit ending equity": "الربح / حقوق نهاية الفترة",
+    "balance sheet residual": "فرق الميزانية",
+    "cash capex revenue": "الإنفاق الرأسمالي النقدي / الإيراد",
+    "ebitda margin": "هامش EBITDA",
+    "fcff margin": "هامش التدفق الحر المعلن",
+    "net profit margin": "هامش صافي الربح",
+    "effective tax rate": "معدل الضريبة الفعلي",
+    "loans deposits": "القروض / الودائع",
+    "assets highlights yoy": "نمو الأصول (الملخص) السنوي",
+    "customer deposits yoy": "نمو ودائع العملاء السنوي",
+    "deposits highlights yoy": "نمو الودائع (الملخص) السنوي",
+    "net operating income yoy": "نمو صافي الدخل التشغيلي السنوي",
+    "net profit as disclosed yoy": "نمو صافي الربح المعلن السنوي",
+    "net profit highlights yoy": "نمو صافي الربح (الملخص) السنوي",
+    "net profit yoy": "نمو صافي الربح السنوي",
+    "total assets yoy": "نمو إجمالي الأصول السنوي",
+    "total equity yoy": "نمو إجمالي حقوق الملكية السنوي",
+    "revenue yoy": "نمو الإيراد السنوي",
+    "fcff reported yoy": "نمو التدفق النقدي الحر المعلن السنوي",
+    "macd signal": "خط إشارة ماكد",
+    "macd hist": "مدرج ماكد",
+    "bb upper": "حد بولينجر الأعلى",
+    "bb lower": "حد بولينجر الأدنى",
+    "volume ratio5": "الحجم النسبي"
+  },
+  "notice": {
+    "en": "Arabic interface labels and help are available. Some original evidence, lesson text, question prompts and diagnostic messages remain in English. No live trading.",
+    "ar": "تتوفر عناوين الواجهة والمساعدة بالعربية. قد تبقى بعض الأدلة والدروس والأسئلة ورسائل التشخيص الأصلية بالإنجليزية. لا تداول فعلي."
+  }
+}

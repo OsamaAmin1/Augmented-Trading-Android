@@ -1,0 +1,32 @@
+plugins { id 'com.android.application'; id 'com.chaquo.python' }
+android {
+    namespace 'com.augmented.trading'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.augmented.trading'
+        minSdk 24
+        targetSdk 35
+        versionCode 11901
+        versionName '1.19-android-preview.1'
+        ndk { abiFilters 'arm64-v8a', 'x86_64' }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { release { minifyEnabled false } }
+}
+chaquopy {
+    defaultConfig {
+        version = '3.10'
+        pip {
+            install 'numpy==1.23.3'
+            install 'scipy==1.8.1'
+            install 'pandas==2.1.3'
+            install 'cryptography==42.0.8'
+            install 'fastapi==0.115.12'
+            install 'pydantic==1.10.15'
+            install 'starlette==0.46.2'
+            install 'uvicorn==0.34.2'
+            install 'httpx==0.28.1'
+            options '--only-binary=:all:'
+        }
+    }
+}

@@ -1,2 +1,36 @@
-# Augmented-Trading-Android
-Augmented Trading App 
+# Augmented Trading Android — V1.19 Android Preview 1
+
+## Release status
+This is the complete Android **source-port candidate**, not an APK and not an Android-device-validated release. It embeds the cumulative V1.19 runtime; there is no desktop server dependency, remote brokerage integration, or trained AI model. The local WebView is a UI shell within a native Android Activity; its requests are delivered to embedded Python through a constrained in-process adapter. The app does not declare INTERNET permission. Test with fictional financial information until security, dependencies and device behavior have been reviewed. The original capability acceptance and historical verification gates remain open/closed respectively.
+
+## Included
+- All 539 original V1.19 package files, preserved byte-for-byte inside `app/src/main/assets/runtime.zip`, plus three mobile UI/reference files. All 72 original SQLite warehouse tables; SHA-256 verified at startup. Existing candidate price samples, 24 synthetic scenarios, catalogue of 387 identifiers, 35 strategies, 31 lessons, and the full training warehouse remain bundled. No actual account data is included.
+- The runtime is extracted into Android app-private no-backup storage; the account database is created separately under `private/investors.sqlite`. Existing password-derived AES-GCM design retained. Uninstallation or app-data clearing removes local records; export deliberately requires user confirmation. No cloud sync, recovery or desktop account import is implemented. The warehouse is opened read-only by the existing engines.
+- All 12 authenticated/public V1.19 HTML route screens, including the investor dashboard, assessment, replay, Academy, evidence journal, fundamental, technical, intelligence, backtest, OR, historical replay and audit. No new strategies are marked executable. 11 strategy rule prototypes remain executable.
+- Persistent language switch in the WebView. Arabic uses RTL; English uses LTR. 622 exact visible-label translation dictionary entries (includes aliases and machine-label display text); 135 bilingual reference entries, including 35 strategy, 80 metric and 20 tool/algorithm explanations. Each entry has meaning, how to use and calculation/application. Matching labels and strategy selections have a contextual `i` button; the searchable Help catalogue is available globally. Original data, exported JSON, canonical IDs and strategy rules remain unchanged.
+- Partial localization: some assessment questions, Academy lesson bodies and quiz questions, long source evidence, raw JSON, diagnostics, and dynamic text remain English. Not every internal algorithm/field has its own help entry. Native Arabic linguistic review, accessibility testing and complete translation audit remain outstanding. Arabic equations may need LTR formatting refinements.
+- Android compatibility solver: SciPy's published Android 1.8.1 wheel does not provide `milp`. The Android adapter adds branch-and-bound over HiGHS LP relaxations for the same frozen OR model. A timeout/node limit or unsuccessful LP returns no certified trade. This is not the original SciPy 1.17 HiGHS MILP implementation. 60 one-asset enumeration tests and 20 two-variable constrained MILP parity fixtures passed on the desktop host; actual Android SciPy 1.8.1, multi-asset performance and time limits require device verification. Other V1.19 engine source files unchanged.
+
+## Build an APK (requires internet access at build time only)
+1. Install Android Studio with JDK 17, Android SDK Platform 35 and build tools 35.0.0, and Python 3.10 on the build machine. Open the extracted project root (`settings.gradle`). Accept SDK licenses in SDK Manager. Gradle version 8.11.1; AGP 8.9.2; Chaquopy 17.2.0. Android min API 24; arm64-v8a and x86_64. The old native wheel versions may not support all 16 KB page-size devices.
+2. Sync Gradle. The first build must resolve Android/Chaquopy/PyPI dependencies. The pinned Android package stack differs from the desktop stack. Compatibility is a build gate, not a verified claim. Do not substitute desktop or Linux wheels.
+3. Build > Build APK(s), or `gradle --no-daemon :app:assembleDebug` from the root with Gradle 8.11.1. Output: `app/build/outputs/apk/debug/app-debug.apk` if the build succeeds. `BUILD_WINDOWS.bat` performs the same command when Gradle is installed. Debug APKs are for development, not production distribution.
+4. Alternatively, upload the extracted project to a PRIVATE GitHub repository (only if you have the rights to distribute the included candidate data). `.github/workflows/android.yml` installs the SDK, accepts licenses, and builds the debug APK. Open Actions → Build Android debug APK → Run workflow → download `augmented-trading-debug-apk` after a successful build. GitHub Actions was not executed here.
+5. Install the resulting APK on a test Android phone/tablet. With networking disabled, create a fictional account, switch languages, test Academy and Market World, run OR and historical experiments, close and reopen the app and confirm records persist. Test on a physical arm64 phone and x86_64 emulator. Verify no real orders and the historical verification gate. Test Arabic display, large font, orientation and export destination permissions.
+
+## Tests executed in this environment
+- `tools/test_android.py`: 282/282 host checks (Python 3.13 and original desktop dependencies; forced compatibility solver), including all 135 bilingual help records, 60 exact enumeration checks and 20 comparisons with desktop SciPy MILP, account auth and persistence, read-only warehouse, virtual buy/advance, historical gate, and all pages.
+- `tools/test_browser.py`: 25/25 phone-size desktop Chromium checks. Managed Chromium prevented direct virtual-origin navigation; the harness used about:blank and an asynchronous request bridge to the actual local Python ASGI app. It simulated localStorage across pages. The Android Java/WebView transport, JavaScriptInterface, native storage/export and native dependency stack were NOT executed. Screenshots are host captures, not actual Android device screenshots.
+- Previous V1.19 baseline regression results (4,841) are inherited inside the unmodified runtime, not rerun on Android. No APK compilation was possible because the container had no Android SDK/Gradle and DNS/network downloads to Google were unavailable. No app store release or formal acceptance.
+
+## File map
+- `app/src/main/java/com/augmented/trading/MainActivity.java`: native shell, virtual origin interception, startup extraction, local export.
+- `app/src/main/python/android_entry.py`: local ASGI adapter and integrity check.
+- `app/src/main/python/android_milp.py`: SciPy compatibility solver.
+- `app/src/main/assets/runtime.zip`: complete V1.19 baseline plus help and language overlay.
+- `help_catalogue.json`, `mobile-catalogue.js`, `mobile-help.js`: bilingual reference and UI.
+- `tools/build_help.py <extracted V1.19 directory>`: regenerates bilingual catalogue. `tools/package_runtime.py <V1.19 ZIP>`: rebuilds the embedded runtime.
+- `android_host_checks.csv`, `android_browser_checks.csv`: test evidence.
+- `PROJECT_ROADMAP_ANDROID.md`: V1/V2 scope and Android acceptance work.
+
+Reference for Android packaging: Chaquopy 17.2 docs https://chaquo.com/chaquopy/doc/current/android.html and Android native wheel index https://chaquo.com/pypi-13.1/. A real Android build and dependency/security review must precede use with real financial information. Data rights and completeness are unchanged; no verified historical or live execution.

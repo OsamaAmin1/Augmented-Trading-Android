@@ -1,0 +1,26 @@
+test,passed
+Toolbar loaded,True
+Login on phone-size view,True
+Arabic RTL,True
+Arabic dashboard heading,True
+Search RSI 14,True
+Arabic metric title,True
+Arabic metric formula,True
+Language retained across workspace,True
+11 executable strategy options,True
+Strategy ID unchanged,True
+Arabic strategy option,True
+Strategy contextual help,True
+Backtest result in Arabic mode,True
+English restored,True
+Optimizer result in phone-size view,True
+Help toolbar /assessment,True
+Help toolbar /market,True
+Help toolbar /fundamental,True
+Help toolbar /technical,True
+Help toolbar /intelligence,True
+Help toolbar /historical,True
+Help toolbar /academy,True
+Help toolbar /progress,True
+Help toolbar /integration,True
+No uncaught browser script errors,True

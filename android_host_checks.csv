@@ -1,0 +1,283 @@
+test,passed
+ZIP integrity,True
+No private records bundled,True
+Warehouse integrity,True
+72 original tables,True
+Warehouse hash,True
+All 35 exact strategy IDs,True
+No duplicate help IDs,True
+Bilingual help ST-00,True
+Bilingual help ST-01,True
+Bilingual help ST-02,True
+Bilingual help ST-03,True
+Bilingual help ST-04,True
+Bilingual help ST-05,True
+Bilingual help ST-06,True
+Bilingual help ST-07,True
+Bilingual help ST-08,True
+Bilingual help ST-09,True
+Bilingual help ST-10,True
+Bilingual help ST-11,True
+Bilingual help ST-12,True
+Bilingual help ST-13,True
+Bilingual help ST-14,True
+Bilingual help ST-15,True
+Bilingual help ST-16,True
+Bilingual help ST-17,True
+Bilingual help ST-18,True
+Bilingual help ST-19,True
+Bilingual help ST-20,True
+Bilingual help ST-21,True
+Bilingual help ST-22,True
+Bilingual help ST-23,True
+Bilingual help ST-24,True
+Bilingual help ST-25,True
+Bilingual help ST-26,True
+Bilingual help ST-27,True
+Bilingual help ST-28,True
+Bilingual help ST-29,True
+Bilingual help ST-30,True
+Bilingual help ST-31,True
+Bilingual help ST-32,True
+Bilingual help ST-33,True
+Bilingual help ST-34,True
+Bilingual help return_pct,True
+Bilingual help interval_return,True
+Bilingual help max_drawdown_pct,True
+Bilingual help drawdown,True
+Bilingual help volatility,True
+Bilingual help sharpe,True
+Bilingual help sortino,True
+Bilingual help calmar,True
+Bilingual help alpha,True
+Bilingual help beta,True
+Bilingual help correlation,True
+Bilingual help tracking_error,True
+Bilingual help information_ratio,True
+Bilingual help cvar,True
+Bilingual help var,True
+Bilingual help expected_return_pct,True
+Bilingual help equity,True
+Bilingual help cash,True
+Bilingual help exposure,True
+Bilingual help turnover,True
+Bilingual help fee,True
+Bilingual help spread,True
+Bilingual help slippage,True
+Bilingual help nav,True
+Bilingual help pe,True
+Bilingual help pb,True
+Bilingual help dcf,True
+Bilingual help wacc,True
+Bilingual help leverage,True
+Bilingual help market_breadth,True
+Bilingual help real_return,True
+Bilingual help fx_return,True
+Bilingual help benchmark,True
+Bilingual help position_stop,True
+Bilingual help equity_assets,True
+Bilingual help liabilities_assets,True
+Bilingual help profit_ending_assets,True
+Bilingual help profit_ending_equity,True
+Bilingual help balance_sheet_residual,True
+Bilingual help cash_capex_revenue,True
+Bilingual help ebitda_margin,True
+Bilingual help fcff_margin,True
+Bilingual help net_profit_margin,True
+Bilingual help effective_tax_rate,True
+Bilingual help loans_deposits,True
+Bilingual help assets_highlights_yoy,True
+Bilingual help customer_deposits_yoy,True
+Bilingual help deposits_highlights_yoy,True
+Bilingual help net_operating_income_yoy,True
+Bilingual help net_profit_as_disclosed_yoy,True
+Bilingual help net_profit_highlights_yoy,True
+Bilingual help net_profit_yoy,True
+Bilingual help total_assets_yoy,True
+Bilingual help total_equity_yoy,True
+Bilingual help revenue_yoy,True
+Bilingual help fcff_reported_yoy,True
+Bilingual help sma3,True
+Bilingual help sma5,True
+Bilingual help sma20,True
+Bilingual help sma50,True
+Bilingual help sma200,True
+Bilingual help ema5,True
+Bilingual help ema12,True
+Bilingual help ema26,True
+Bilingual help rsi3,True
+Bilingual help rsi14,True
+Bilingual help macd,True
+Bilingual help macd_signal,True
+Bilingual help macd_hist,True
+Bilingual help bb_upper,True
+Bilingual help bb_lower,True
+Bilingual help atr14,True
+Bilingual help stoch14,True
+Bilingual help obv,True
+Bilingual help vwap,True
+Bilingual help volume_ratio5,True
+Bilingual help support5,True
+Bilingual help resistance5,True
+Bilingual help engulfing,True
+Bilingual help doji,True
+Bilingual help assessment,True
+Bilingual help plan,True
+Bilingual help academy,True
+Bilingual help progress,True
+Bilingual help market,True
+Bilingual help fundamental,True
+Bilingual help technical,True
+Bilingual help intelligence,True
+Bilingual help backtest,True
+Bilingual help optimizer,True
+Bilingual help historical,True
+Bilingual help integration,True
+Bilingual help milp,True
+Bilingual help bootstrap,True
+Bilingual help market_regime,True
+Bilingual help source_gate,True
+Bilingual help fund_fee,True
+Bilingual help fx_sensitivity,True
+Bilingual help multiple,True
+Bilingual help liquidity_cap,True
+Fundamental metric coverage,True
+Technical metric coverage,True
+Initialize embedded engine,True
+External route rejected,True
+Traversal rejected,True
+Warehouse not exposed,True
+Anonymous blocked /api/profile,True
+Anonymous blocked /assessment,True
+Anonymous blocked /market,True
+Anonymous blocked /fundamental,True
+Anonymous blocked /technical,True
+Anonymous blocked /intelligence,True
+Anonymous blocked /backtest,True
+Anonymous blocked /optimizer,True
+Anonymous blocked /historical,True
+Anonymous blocked /academy,True
+Anonymous blocked /progress,True
+Anonymous blocked /integration,True
+Home injected help scripts,True
+Local asset /mobile-help.js,True
+Local asset /mobile-catalogue.js,True
+Register,True
+Sign in,True
+Persistent auth and zero live authorization,True
+Authenticated workspace /,True
+Authenticated workspace /academy,True
+Authenticated workspace /assessment,True
+Authenticated workspace /backtest,True
+Authenticated workspace /fundamental,True
+Authenticated workspace /historical,True
+Authenticated workspace /integration,True
+Authenticated workspace /intelligence,True
+Authenticated workspace /market,True
+Authenticated workspace /optimizer,True
+Authenticated workspace /progress,True
+Authenticated workspace /technical,True
+Embedded API /api/schema,True
+Embedded API /api/resume,True
+Embedded API /market/api/meta,True
+Embedded API /fundamental/api/catalogue,True
+Embedded API /technical/api/catalogue,True
+Embedded API /backtest/api/meta,True
+Embedded API /historical/api/meta,True
+Embedded API /historical/api/snapshot?step=0,True
+Embedded API /academy/api/catalogue,True
+Embedded API /progress/api/evidence,True
+Embedded API /integration/api/status,True
+Academy 31 lessons,True
+Historical gate closed,True
+Candidate experiment acknowledgment,True
+Optimizer API executes,True
+Virtual replay starts,True
+Virtual buy queued,True
+Virtual replay advances,True
+Private record encrypted,True
+Logout,True
+Logout revokes,True
+Re-login retains virtual replay,True
+Source remains unchanged,True
+Exact enumeration 0,True
+Exact enumeration 1,True
+Exact enumeration 2,True
+Exact enumeration 3,True
+Exact enumeration 4,True
+Exact enumeration 5,True
+Exact enumeration 6,True
+Exact enumeration 7,True
+Exact enumeration 8,True
+Exact enumeration 9,True
+Exact enumeration 10,True
+Exact enumeration 11,True
+Exact enumeration 12,True
+Exact enumeration 13,True
+Exact enumeration 14,True
+Exact enumeration 15,True
+Exact enumeration 16,True
+Exact enumeration 17,True
+Exact enumeration 18,True
+Exact enumeration 19,True
+Exact enumeration 20,True
+Exact enumeration 21,True
+Exact enumeration 22,True
+Exact enumeration 23,True
+Exact enumeration 24,True
+Exact enumeration 25,True
+Exact enumeration 26,True
+Exact enumeration 27,True
+Exact enumeration 28,True
+Exact enumeration 29,True
+Exact enumeration 30,True
+Exact enumeration 31,True
+Exact enumeration 32,True
+Exact enumeration 33,True
+Exact enumeration 34,True
+Exact enumeration 35,True
+Exact enumeration 36,True
+Exact enumeration 37,True
+Exact enumeration 38,True
+Exact enumeration 39,True
+Exact enumeration 40,True
+Exact enumeration 41,True
+Exact enumeration 42,True
+Exact enumeration 43,True
+Exact enumeration 44,True
+Exact enumeration 45,True
+Exact enumeration 46,True
+Exact enumeration 47,True
+Exact enumeration 48,True
+Exact enumeration 49,True
+Exact enumeration 50,True
+Exact enumeration 51,True
+Exact enumeration 52,True
+Exact enumeration 53,True
+Exact enumeration 54,True
+Exact enumeration 55,True
+Exact enumeration 56,True
+Exact enumeration 57,True
+Exact enumeration 58,True
+Exact enumeration 59,True
+Native MILP parity 0,True
+Native MILP parity 1,True
+Native MILP parity 2,True
+Native MILP parity 3,True
+Native MILP parity 4,True
+Native MILP parity 5,True
+Native MILP parity 6,True
+Native MILP parity 7,True
+Native MILP parity 8,True
+Native MILP parity 9,True
+Native MILP parity 10,True
+Native MILP parity 11,True
+Native MILP parity 12,True
+Native MILP parity 13,True
+Native MILP parity 14,True
+Native MILP parity 15,True
+Native MILP parity 16,True
+Native MILP parity 17,True
+Native MILP parity 18,True
+Native MILP parity 19,True
+Timeout fails closed,True

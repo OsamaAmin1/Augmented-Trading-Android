@@ -1,0 +1,19 @@
+{
+  "release": "V1.19 Android Preview 1",
+  "apk_built": false,
+  "android_device_tested": false,
+  "original_runtime_files_preserved": 539,
+  "embedded_runtime_files": 542,
+  "database_sha256": "bee99a931e946f9263fb71f652d5aa3cb1c72363c40297e6ca81d60413046797",
+  "warehouse_tables": 72,
+  "help_entries": 135,
+  "strategies": 35,
+  "metrics": 80,
+  "tools_algorithms": 20,
+  "translation_entries": 622,
+  "host_checks": 282,
+  "bridged_browser_checks": 25,
+  "phase19_formal_acceptance": "pending",
+  "ai_training": "V2 deferred",
+  "historical_verified": false
+}

@@ -1,0 +1,1 @@
+<resources><string name="app_name">Augmented Trading</string><string name="loading">Preparing offline trading workspace…</string><string name="error">The local engine could not start. Check the build diagnostics.</string></resources>
