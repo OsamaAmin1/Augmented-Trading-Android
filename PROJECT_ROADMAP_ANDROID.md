@@ -50,17 +50,17 @@ Initial implementation count: V1 17/19 (89.5%); Phase 19 partially implemented a
 
 19 (recover original register and close scoped gaps) → 20 → V2 (18, 21–30, subject to dependencies). Actual historical acquisition and verification remain open. Phase 19 must document deferred capabilities explicitly; no blanket acceptance claim.
 
-## Android delivery track (V1, added after Phase 19)
+## Android delivery track (V1, added after Phase 19 — updated in Android Build Revision 02)
 
 | ID | Work item | Current status |
 |---|---|---|
-| AND-01 | Android Studio project and complete bundled V1.19 runtime | Source port prepared; no APK built |
+| AND-01 | Android Studio project and complete bundled V1.19 runtime | Debug APK built (`versionCode 11901`, `1.19-android-preview.1`, Revision 02); device testing pending |
 | AND-02 | Embedded SQLite market warehouse and private persistent investor storage | Source implemented, host checks passed; Android storage validation pending |
 | AND-03 | English / Arabic localization and RTL | Initial 622-entry label dictionary; untranslated original evidence and dynamic content pending |
 | AND-04 | Contextual bilingual tool / strategy / metric / algorithm information | Initial 135 entries, all 35 strategies; comprehensive UI coverage review pending |
-| AND-05 | Embedded OR MILP compatibility | Host enumeration and solver parity checks passed; Android dependency and performance tests pending |
-| AND-06 | Android build and install | BLOCKED in current container; Gradle CI supplied, APK not compiled |
-| AND-07 | Physical phone and tablet acceptance | Pending actual Android build, dependency review, offline execution, export, storage, Arabic QA, security review |
+| AND-05 | Embedded OR MILP compatibility | Host enumeration and solver parity checks passed; Chaquopy `arm64-v8a`/`x86_64` wheels packaged in APK; on-device performance tests pending |
+| AND-06 | Android build and install | COMPILED & VERIFIED (Revision 02): `.github/workflows/android.yml` SDK initialization fixed; `app-debug.apk` built, v2-signed, and verified with `apksigner`/`aapt`; device install pending |
+| AND-07 | Physical phone and tablet acceptance | Ready for device/emulator install; offline execution, export, storage, Arabic QA, dependency and security review pending |
 | AND-08 | V1 final acceptance | Pending original 80-capability recovery, data rights/validation, existing phase 19 gaps and Android acceptance |
 
 No existing milestone IDs or locked definitions have been modified. Phase 18 (AI training and decision support) remains in V2 with live EGX and Thndr integration. Android is a delivery track, not a new completed milestone; V1 remains 17/19 initially implemented, with phase 19 partial and phase 20 open.

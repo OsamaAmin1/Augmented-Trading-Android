@@ -1,6 +1,7 @@
 {
   "release": "V1.19 Android Preview 1",
-  "apk_built": false,
+  "build_revision": "Android Build Revision 02",
+  "apk_built": true,
   "android_device_tested": false,
   "original_runtime_files_preserved": 539,
   "embedded_runtime_files": 542,

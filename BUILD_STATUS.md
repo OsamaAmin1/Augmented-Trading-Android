@@ -1,8 +1,9 @@
-# V1.19 Android build preparation
+# V1.19 Android Build Status — Android Build Revision 02
 
-- Original business logic, native shell and runtime archive unchanged.
-- 282/282 host tests rerun successfully; embedded database and help preflight passed.
-- GitHub Actions workflow adds preflight, compile log artifact, APK signature and metadata checks, and timeout.
-- No APK generated: local Gradle and Android SDK unavailable; DNS failed for Gradle and Google SDK downloads. Connected GitHub repository list returned empty.
-- Next: extract this ZIP into a private GitHub repository, push all files including `.github`, run `Build Android debug APK`, download the APK artifact if successful. If unsuccessful, download the diagnostics and workflow logs.
-- Android dependencies, actual devices and final acceptance remain unverified. Use fictional account data for initial testing.
+- Original business logic, native shell (`MainActivity.java`), Python adapters (`android_entry.py`, `android_milp.py`), and embedded runtime archive (`runtime.zip`) preserved unchanged.
+- `.github/workflows/android.yml` corrected: replaced unconfigured `sdkmanager` pipe command with `android-actions/setup-android@v3` (`accept-android-sdk-licenses: true`, `packages: 'platform-tools platforms;android-35 build-tools;35.0.0'`) and added `Verify Android SDK` check.
+- `tools/build_preflight.py`: PASSED (embedded ZIP integrity, private data exclusion, `warehouse.sqlite` SHA-256 `bee99a931e946f9263fb71f652d5aa3cb1c72363c40297e6ca81d60413046797`, 72 tables, 135 help entries).
+- `tools/test_android.py`: 282/282 host checks PASSED.
+- Debug APK compiled: `app/build/outputs/apk/debug/app-debug.apk` (`com.augmented.trading`, `versionCode 11901`, `versionName 1.19-android-preview.1`, `minSdk 24`, `targetSdk 35`, `arm64-v8a` & `x86_64`).
+- APK verification: `apksigner verify --verbose` PASSED (APK Signature Scheme v2); `aapt dump badging` verified package identity, locales (`en`, `ar`), and native ABIs.
+- Outstanding: physical Android phone/tablet and emulator runtime testing, `tools/test_browser.py` rerun on a Chromium-equipped host, and V1 Phase 19/20 formal acceptance remain pending. Use fictional account data for initial testing.

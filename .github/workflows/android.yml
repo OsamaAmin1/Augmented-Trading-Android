@@ -18,13 +18,18 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.11.1'
-      - name: Accept Android SDK licenses and install API 35
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          accept-android-sdk-licenses: true
+          packages: 'platform-tools platforms;android-35 build-tools;35.0.0'
+      - name: Verify Android SDK
         shell: bash
         run: |
-          set +o pipefail
-          yes | sdkmanager --licenses >/dev/null
-          set -o pipefail
-          sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+          echo "Android SDK: $ANDROID_HOME"
+          command -v sdkmanager
+          sdkmanager --version
+          sdkmanager --list_installed
       - name: Verify embedded runtime and database
         run: python tools/build_preflight.py
       - name: Compile debug APK
